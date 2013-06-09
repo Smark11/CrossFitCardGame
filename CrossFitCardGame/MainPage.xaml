@@ -1,0 +1,269 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="clr-namespace:CrossFitCardGame.Converters"
+    xmlns:common="clr-namespace:Common.UiComponents;assembly=Common"
+    
+    xmlns:UI="clr-namespace:Microsoft.Advertising.Mobile.UI;assembly=Microsoft.Advertising.Mobile.UI"
+    x:Class="CrossFitCardGame.MainPage"
+    mc:Ignorable="d"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False"
+    
+    BackKeyPress="BackKeyPressed"
+    
+    >
+
+    <phone:PhoneApplicationPage.Resources>
+        <converters:ConvertSecondsToMMSS x:Key="timeconverter"/>
+        <DataTemplate x:Key="ImageTemplate">
+            <Image Source="{Binding ImageSource}"/>
+        </DataTemplate>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <phone:PhoneApplicationPage.FontFamily>
+        <StaticResource ResourceKey="PhoneFontFamilyNormal"/>
+    </phone:PhoneApplicationPage.FontFamily>
+    <phone:PhoneApplicationPage.FontSize>
+        <StaticResource ResourceKey="PhoneFontSizeNormal"/>
+    </phone:PhoneApplicationPage.FontSize>
+    <phone:PhoneApplicationPage.Foreground>
+        <StaticResource ResourceKey="PhoneForegroundBrush"/>
+    </phone:PhoneApplicationPage.Foreground>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar x:Name="NavBar"  Mode="Minimized" >
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Click="AboutClicked" Text="About"/>
+            </shell:ApplicationBar.MenuItems>
+            <shell:ApplicationBarIconButton Click="ResetClickedHandler" IconUri="/Assets/AppBar/refresh.png" Text="Reset"/>
+
+            <shell:ApplicationBarIconButton Click="PauseClickedHandler" IconUri="/Assets/AppBar/transport.pause.png" Text="Pause Clock"/>
+
+            <shell:ApplicationBarIconButton Click="PlayClickedHandler" IconUri="/Assets/AppBar/transport.play.png" Text="Start Clock"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".10*"/>
+            <RowDefinition Height=".60*"/>
+            <RowDefinition Height=".30*"/>
+        </Grid.RowDefinitions>
+
+        <UI:AdControl 
+            x:Name="AdControl"
+            ApplicationId="700ca24b-cbc7-4e90-82f1-d13ea652224f" 
+            AdUnitId="123911" 
+            HorizontalAlignment="Left" 
+            Height="80" 
+            Width="480"
+            Grid.Row="0"
+            VerticalAlignment="Top" />
+        
+        <!--<TextBlock Grid.Row="0" FontSize="40" x:Name="Title" Text="CrossFit Card Game" Foreground="Red" HorizontalAlignment="Center"/>-->
+
+
+        <!-- LOCALIZATION NOTE:
+            To localize the displayed strings copy their values to appropriately named
+            keys in the app's neutral language resource file (AppResources.resx) then
+            replace the hard-coded text value between the attributes' quotation marks
+            with the binding clause whose path points to that string name.
+
+            For example:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+            This binding points to the template's string resource named "ApplicationTitle".
+
+            Adding supported languages in the Project Properties tab will create a
+            new resx file per language that can carry the translated values of your
+            UI strings. The binding in these examples will cause the value of the
+            attributes to be drawn from the .resx file that matches the
+            CurrentUICulture of the app at run time.
+         -->
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <!--<StackPanel x:Name="PushupChallenge" Grid.Row="0" Margin="12,17,0,14">
+            <TextBlock Text="Cross-Fit Challenge" HorizontalAlignment="Center" FontSize="26" Margin="12,0"/>
+        </StackPanel>-->
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Viewbox  Stretch="Uniform">
+                <Grid>
+                    <common:TrialOver Visibility="{Binding TrialScreenVisibility}"/>
+
+                    <Grid Visibility="{Binding CardVisibility}">
+                        <!--<Button Click="CardClicked">
+                            <Image Source="{Binding SelectedCard.ImageSource}"/>
+                        </Button>-->
+                        <phone:Pivot  x:Name="CardPivot" SelectionChanged="PivotChangedHandler" ItemsSource="{Binding ShuffledDeck}" ItemTemplate="{StaticResource ImageTemplate}">
+                            <phone:Pivot.HeaderTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock FontSize="30" Foreground="GreenYellow" Text="{Binding NumberOfReps}"/>
+                                        <TextBlock FontSize="30" Foreground="GreenYellow" Text=" Reps"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </phone:Pivot.HeaderTemplate>
+                        </phone:Pivot>
+                        <!--<phone:Panorama x:Name="Panorama"    SelectionChanged="PanoramaChangedHandler" ItemsSource="{Binding ShuffledDeck}" ItemTemplate="{StaticResource ImageTemplate}" LostMouseCapture="PanoramaMouseLost">
+                            <phone:Panorama.HeaderTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock FontSize="30" Foreground="GreenYellow" Text="{Binding NumberOfReps}"/>
+                                        <TextBlock FontSize="30" Foreground="GreenYellow" Text=" Reps"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </phone:Panorama.HeaderTemplate>
+                        </phone:Panorama>-->
+                    </Grid>
+                    <StackPanel Visibility="{Binding DoneVisibility}">
+                        <TextBlock Text="Deck Complete!" />
+                        <!--<Button Width="100" Click="ResetClickedHandler" Content="Reset"/>-->
+                    </StackPanel>
+                </Grid>
+            </Viewbox>
+        </Grid>
+
+
+        <Grid Margin="5,0,0,0" Grid.Row="2" Visibility="{Binding StatsVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".5*"/>
+                <ColumnDefinition Width=".5*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" FontSize="30" Text="Cards:"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" FontSize="30" Text="Reps:"/>
+
+            <!--Red Cards-->
+            <Border Grid.Row="1" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2,2,0,2">
+                <Grid Margin="5,0,0,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width=".5*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Red:"/>
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                        <TextBlock FontSize="30"   Text="{Binding RedCardsComplete}" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/26" Foreground="GreenYellow"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!--Black Cards-->
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2,2,0,2">
+                <Grid Margin="5,0,0,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width=".5*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Black:"/>
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                        <TextBlock FontSize="30"   Text="{Binding BlackCardsComplete}" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/26" Foreground="GreenYellow"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!--Red Reps-->
+            <Border Grid.Row="1" Grid.Column="1" BorderBrush="LightGray" BorderThickness="2,2,2,2">
+                <Grid Margin="5,0,0,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width=".5*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Red:"/>
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                        <TextBlock FontSize="30"   Text="{Binding RedRepsComplete}" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/208" Foreground="GreenYellow"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!--Black Reps-->
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="LightGray" BorderThickness="2,2,2,2">
+                <Grid Margin="5,0,0,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width=".5*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Black:"/>
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                        <TextBlock FontSize="30"   Text="{Binding BlackRepsComplete}" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/208" Foreground="GreenYellow"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!--Card Total-->
+            <Border Grid.Row="3" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2,2,2,2">
+                <Grid Margin="5,0,0,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width=".5*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Total:"/>
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                        <TextBlock FontSize="30"   Text="{Binding TotalCardsComplete}" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/52" Foreground="GreenYellow"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!--Rep Total-->
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="LightGray" BorderThickness="2,2,2,2">
+                <Grid Margin="5,0,0,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width=".5*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Total:"/>
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                        <TextBlock FontSize="30"   Text="{Binding TotalRepsComplete}" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/416" Foreground="GreenYellow"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="2" Orientation="Horizontal">
+                <TextBlock FontSize="30" Text="Clock:"/>
+                <TextBlock Margin="5,0,0,0" FontSize="30" Text="{Binding ElapsedSeconds, Converter={StaticResource timeconverter}}" Foreground="GreenYellow"/>
+            </StackPanel>
+        </Grid>
+
+        <!--About Grid-->
+        <Grid Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Top" HorizontalAlignment="Center" x:Name="InfoGrid" Visibility="{Binding InfoGridVisibility}">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" FontSize="40" x:Name="Title" Text="CrossFit Card Game" Foreground="Red" HorizontalAlignment="Center"/>
+
+            <StackPanel Orientation="Vertical" Grid.Row="1">
+                <TextBlock Grid.Row="1" Foreground="Red" FontSize="30" Text="application information:"/>
+                <TextBlock Grid.Row="1" Text="Version 1.0, Released 2/16/2013"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Grid.Row="2">
+                <TextBlock Grid.Row="1" Foreground="Red" FontSize="30" Text="support:"/>
+                <TextBlock Grid.Row="1" Text="KlbCreation01@yahoo.com"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
