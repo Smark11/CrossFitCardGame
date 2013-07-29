@@ -2,23 +2,41 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <Languages xmlns="">
+    <Language code="ar" />
+    <Language code="bg-BG" />
+    <Language code="ca-ES" />
+    <Language code="cs-CZ" />
+    <Language code="da-DK" />
+    <Language code="de" />
+    <Language code="el-GR" />
     <Language code="en" />
-    <Language code="en-AU" />
-    <Language code="en-BZ" />
-    <Language code="en-CA" />
-    <Language code="en-029" />
-    <Language code="en-IN" />
-    <Language code="en-IE" />
-    <Language code="en-JM" />
-    <Language code="en-MY" />
-    <Language code="en-NZ" />
-    <Language code="en-PH" />
-    <Language code="en-SG" />
-    <Language code="en-ZA" />
-    <Language code="en-TT" />
-    <Language code="en-GB" />
-    <Language code="en-US" />
-    <Language code="en-ZW" />
+    <Language code="es" />
+    <Language code="et-EE" />
+    <Language code="fi-FI" />
+    <Language code="fr" />
+    <Language code="he-IL" />
+    <Language code="hi-IN" />
+    <Language code="hu-HU" />
+    <Language code="id-ID" />
+    <Language code="it" />
+    <Language code="ja-JP" />
+    <Language code="ko-KR" />
+    <Language code="lv-LV" />
+    <Language code="nb-NO" />
+    <Language code="nl" />
+    <Language code="pl-PL" />
+    <Language code="pt" />
+    <Language code="qps-ploc" />
+    <Language code="ro-RO" />
+    <Language code="ru-RU" />
+    <Language code="sk-SK" />
+    <Language code="sv" />
+    <Language code="th-TH" />
+    <Language code="tr-TR" />
+    <Language code="uk-UA" />
+    <Language code="vi-VN" />
+    <Language code="zh-Hans" />
+    <Language code="zh-Hant" />
   </Languages>
   <App xmlns="" ProductID="{0233f83c-6f25-4a6d-a414-22fdd832780b}" Title="CrossFit Card Game" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="CrossFitCardGame author" Description="Cross-Fit rep game.  The card number is the number of reps done.  Cards will alternate black and red throughout the deck." Publisher="CrossFitCardGame" PublisherID="{1839fec6-4ec7-4b45-94f3-c65c2ddd3881}">
     <IconPath IsRelative="true" IsResource="false">Cards202.png</IconPath>
@@ -39,14 +57,10 @@
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Heart110.png</BackgroundImageURI>
           <Title>CrossFit Card Game</Title>
-          <BackContent>
-          </BackContent>
-          <BackBackgroundImageURI IsRelative="true" IsResource="false">
-          </BackBackgroundImageURI>
-          <BackTitle>
-          </BackTitle>
-          <DeviceLockImageURI IsRelative="true" IsResource="false">
-          </DeviceLockImageURI>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false"></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
           <HasLarge>false</HasLarge>
         </TemplateFlip>
       </PrimaryToken>

@@ -36,7 +36,7 @@
         <StaticResource ResourceKey="PhoneForegroundBrush"/>
     </phone:PhoneApplicationPage.Foreground>
 
-    <phone:PhoneApplicationPage.ApplicationBar>
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar x:Name="NavBar"  Mode="Minimized" >
             <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem Click="AboutClicked" Text="About"/>
@@ -47,7 +47,7 @@
 
             <shell:ApplicationBarIconButton Click="PlayClickedHandler" IconUri="/Assets/AppBar/transport.play.png" Text="Start Clock"/>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
 
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -103,12 +103,14 @@
                         <!--<Button Click="CardClicked">
                             <Image Source="{Binding SelectedCard.ImageSource}"/>
                         </Button>-->
-                        <phone:Pivot  x:Name="CardPivot" SelectionChanged="PivotChangedHandler" ItemsSource="{Binding ShuffledDeck}" ItemTemplate="{StaticResource ImageTemplate}">
+                        <phone:Pivot  x:Name="CardPivot"  
+                                      ItemsSource="{Binding ShuffledDeck}" 
+                                     >
                             <phone:Pivot.HeaderTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock FontSize="30" Foreground="GreenYellow" Text="{Binding NumberOfReps}"/>
-                                        <TextBlock FontSize="30" Foreground="GreenYellow" Text=" Reps"/>
+                                        <TextBlock FontSize="30" Foreground="GreenYellow" Text="{Binding Path=LocalizedResources.Reps, Source={StaticResource LocalizedStrings}}" />
                                     </StackPanel>
                                 </DataTemplate>
                             </phone:Pivot.HeaderTemplate>
@@ -125,7 +127,7 @@
                         </phone:Panorama>-->
                     </Grid>
                     <StackPanel Visibility="{Binding DoneVisibility}">
-                        <TextBlock Text="Deck Complete!" />
+                        <TextBlock Text="{Binding Path=LocalizedResources.DeckComplete, Source={StaticResource LocalizedStrings}}"  />
                         <!--<Button Width="100" Click="ResetClickedHandler" Content="Reset"/>-->
                     </StackPanel>
                 </Grid>
@@ -145,8 +147,8 @@
                 <ColumnDefinition Width=".5*"/>
                 <ColumnDefinition Width=".5*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" FontSize="30" Text="Cards:"/>
-            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" FontSize="30" Text="Reps:"/>
+            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" FontSize="30" Text="{Binding Path=LocalizedResources.Cards, Source={StaticResource LocalizedStrings}}" />
+            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" FontSize="30" Text="{Binding Path=LocalizedResources.Reps2, Source={StaticResource LocalizedStrings}}" />
 
             <!--Red Cards-->
             <Border Grid.Row="1" Grid.Column="0" BorderBrush="LightGray" BorderThickness="2,2,0,2">
@@ -155,10 +157,10 @@
                         <ColumnDefinition Width=".5*"/>
                         <ColumnDefinition Width=".5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Red:"/>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="{Binding Path=LocalizedResources.Red, Source={StaticResource LocalizedStrings}}" />
                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                         <TextBlock FontSize="30"   Text="{Binding RedCardsComplete}" Foreground="GreenYellow"/>
-                        <TextBlock FontSize="30"  Text="/26" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/26"  Foreground="GreenYellow"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -170,10 +172,10 @@
                         <ColumnDefinition Width=".5*"/>
                         <ColumnDefinition Width=".5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Black:"/>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="{Binding Path=LocalizedResources.Black, Source={StaticResource LocalizedStrings}}" />
                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                         <TextBlock FontSize="30"   Text="{Binding BlackCardsComplete}" Foreground="GreenYellow"/>
-                        <TextBlock FontSize="30"  Text="/26" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/26"  Foreground="GreenYellow"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -185,10 +187,10 @@
                         <ColumnDefinition Width=".5*"/>
                         <ColumnDefinition Width=".5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Red:"/>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="{Binding Path=LocalizedResources.Red, Source={StaticResource LocalizedStrings}}" />
                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                         <TextBlock FontSize="30"   Text="{Binding RedRepsComplete}" Foreground="GreenYellow"/>
-                        <TextBlock FontSize="30"  Text="/208" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/208"  Foreground="GreenYellow"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -200,10 +202,10 @@
                         <ColumnDefinition Width=".5*"/>
                         <ColumnDefinition Width=".5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Black:"/>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="{Binding Path=LocalizedResources.Black, Source={StaticResource LocalizedStrings}}" />
                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                         <TextBlock FontSize="30"   Text="{Binding BlackRepsComplete}" Foreground="GreenYellow"/>
-                        <TextBlock FontSize="30"  Text="/208" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/208"  Foreground="GreenYellow"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -215,10 +217,10 @@
                         <ColumnDefinition Width=".5*"/>
                         <ColumnDefinition Width=".5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Total:"/>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="{Binding Path=LocalizedResources.Total, Source={StaticResource LocalizedStrings}}" />
                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                         <TextBlock FontSize="30"   Text="{Binding TotalCardsComplete}" Foreground="GreenYellow"/>
-                        <TextBlock FontSize="30"  Text="/52" Foreground="GreenYellow"/>
+                        <TextBlock FontSize="30"  Text="/52"  Foreground="GreenYellow"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -230,7 +232,7 @@
                         <ColumnDefinition Width=".5*"/>
                         <ColumnDefinition Width=".5*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="Total:"/>
+                    <TextBlock  Grid.Column="0" HorizontalAlignment="Left" FontSize="28" Text="{Binding Path=LocalizedResources.Total, Source={StaticResource LocalizedStrings}}" />
                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                         <TextBlock FontSize="30"   Text="{Binding TotalRepsComplete}" Foreground="GreenYellow"/>
                         <TextBlock FontSize="30"  Text="/416" Foreground="GreenYellow"/>
@@ -239,7 +241,7 @@
             </Border>
 
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="2" Orientation="Horizontal">
-                <TextBlock FontSize="30" Text="Clock:"/>
+                <TextBlock FontSize="30" Text="{Binding Path=LocalizedResources.Clock, Source={StaticResource LocalizedStrings}}" />
                 <TextBlock Margin="5,0,0,0" FontSize="30" Text="{Binding ElapsedSeconds, Converter={StaticResource timeconverter}}" Foreground="GreenYellow"/>
             </StackPanel>
         </Grid>
@@ -252,15 +254,15 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Grid.Row="0" FontSize="40" x:Name="Title" Text="CrossFit Card Game" Foreground="Red" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="0" FontSize="40" x:Name="Title" Text="{Binding Path=LocalizedResources.CrossFitCardGame, Source={StaticResource LocalizedStrings}}"  Foreground="Red" HorizontalAlignment="Center"/>
 
             <StackPanel Orientation="Vertical" Grid.Row="1">
-                <TextBlock Grid.Row="1" Foreground="Red" FontSize="30" Text="application information:"/>
-                <TextBlock Grid.Row="1" Text="Version 1.0, Released 2/16/2013"/>
+                <TextBlock Grid.Row="1" Foreground="Red" FontSize="30" Text="{Binding Path=LocalizedResources.ApplicationInformation, Source={StaticResource LocalizedStrings}}" />
+                <TextBlock Grid.Row="1" Text="{Binding Path=LocalizedResources.Version, Source={StaticResource LocalizedStrings}}" />
             </StackPanel>
 
             <StackPanel Orientation="Vertical" Grid.Row="2">
-                <TextBlock Grid.Row="1" Foreground="Red" FontSize="30" Text="support:"/>
+                <TextBlock Grid.Row="1" Foreground="Red" FontSize="30" Text="{Binding Path=LocalizedResources.Support, Source={StaticResource LocalizedStrings}}" />
                 <TextBlock Grid.Row="1" Text="KlbCreation01@yahoo.com"/>
             </StackPanel>
         </Grid>

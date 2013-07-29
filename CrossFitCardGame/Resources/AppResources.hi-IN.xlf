@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="hi-IN" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="CrossFitCardGame" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">hi-IN</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">मेरा आवेदन</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">जोड़ें</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">मेनू आइटम</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">के बारे में</target>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationInformation" translate="yes" xml:space="preserve">
+          <source>application information:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">अनुप्रयोग जानकारी:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Black" translate="yes" xml:space="preserve">
+          <source>Black:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">काले:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cards" translate="yes" xml:space="preserve">
+          <source>Cards:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">कार्ड:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Clock" translate="yes" xml:space="preserve">
+          <source>Clock:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">घड़ी:</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossFitCardGame" translate="yes" xml:space="preserve">
+          <source>Cross Fit Card Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">क्रॉस फ़िट कार्ड खेल</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeckComplete" translate="yes" xml:space="preserve">
+          <source>Deck Complete!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">डेक पूरा!</target>
+        </trans-unit>
+        <trans-unit id="Resx/PauseClock" translate="yes" xml:space="preserve">
+          <source>Pause Clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">विराम घड़ी</target>
+        </trans-unit>
+        <trans-unit id="Resx/Red" translate="yes" xml:space="preserve">
+          <source>Red:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">लाल:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Reps" translate="yes" xml:space="preserve">
+          <source> Reps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> प्रतिनिधि</target>
+        </trans-unit>
+        <trans-unit id="Resx/Reps2" translate="yes" xml:space="preserve">
+          <source>Reps:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">प्रतिनिधि:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Reset" translate="yes" xml:space="preserve">
+          <source>Reset</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">रीसेट करें</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartClock" translate="yes" xml:space="preserve">
+          <source>Start Clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">घड़ी शुरू</target>
+        </trans-unit>
+        <trans-unit id="Resx/Support" translate="yes" xml:space="preserve">
+          <source>support:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">समर्थन:</target>
+        </trans-unit>
+        <trans-unit id="Resx/VersionInfo" translate="yes" xml:space="preserve">
+          <source>Version 1.0, Released 2/16/2013</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">संस्करण 1.0, जारी 2/16/2013</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> दिनों में अपने परीक्षण शेष।</target>
+        </trans-unit>
+        <trans-unit id="Resx/Total" translate="yes" xml:space="preserve">
+          <source>Total:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">कुल:</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired.  Please purchase this application.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">अपने परीक्षण समाप्त हो गया है।  कृपया इस आवेदन खरीद।</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">आप है </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -122,44 +122,44 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>es</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="ApplicationTitle" xml:space="preserve">
-    <value>MY APPLICATION</value>
+    <value>MI APLICACIÓN</value>
   </data>
   <data name="AppBarButtonText" xml:space="preserve">
-    <value>add</value>
+    <value>Añadir</value>
   </data>
   <data name="AppBarMenuItemText" xml:space="preserve">
-    <value>Menu Item</value>
+    <value>Elemento de menú</value>
   </data>
   <data name="About" xml:space="preserve">
-    <value>About</value>
+    <value>Acerca de</value>
   </data>
   <data name="ApplicationInformation" xml:space="preserve">
-    <value>application information:</value>
+    <value>información de la aplicación:</value>
   </data>
   <data name="Black" xml:space="preserve">
-    <value>Black:</value>
+    <value>Negro:</value>
   </data>
   <data name="Cards" xml:space="preserve">
-    <value>Cards:</value>
+    <value>Tarjetas:</value>
   </data>
   <data name="Clock" xml:space="preserve">
-    <value>Clock:</value>
+    <value>Reloj:</value>
   </data>
   <data name="CrossFitCardGame" xml:space="preserve">
-    <value>Cross Fit Card Game</value>
+    <value>Cross Fit juego de cartas</value>
   </data>
   <data name="DeckComplete" xml:space="preserve">
-    <value>Deck Complete!</value>
+    <value>Cubierta completa!</value>
   </data>
   <data name="PauseClock" xml:space="preserve">
-    <value>Pause Clock</value>
+    <value>Reloj de pausa</value>
   </data>
   <data name="Red" xml:space="preserve">
-    <value>Red:</value>
+    <value>Rojo:</value>
   </data>
   <data name="Reps" xml:space="preserve">
     <value> Reps</value>
@@ -168,27 +168,18 @@
     <value>Reps:</value>
   </data>
   <data name="Reset" xml:space="preserve">
-    <value>Reset</value>
+    <value>RESET</value>
   </data>
   <data name="StartClock" xml:space="preserve">
-    <value>Start Clock</value>
+    <value>Reloj de inicio</value>
   </data>
   <data name="Support" xml:space="preserve">
-    <value>support:</value>
+    <value>apoyo:</value>
   </data>
   <data name="VersionInfo" xml:space="preserve">
-    <value>Version 1.0, Released 2/16/2013</value>
-  </data>
-  <data name="DaysLeftInTrial" xml:space="preserve">
-    <value> days remaining in your trial.</value>
+    <value>Versión 1.0, lanzado 16/02/2013</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total:</value>
-  </data>
-  <data name="TrialExpired" xml:space="preserve">
-    <value>Your trial has expired.  Please purchase this application.</value>
-  </data>
-  <data name="YouHave" xml:space="preserve">
-    <value>You have </value>
   </data>
 </root>

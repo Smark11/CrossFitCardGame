@@ -30,6 +30,7 @@ namespace CrossFitCardGame
             try
             {
                 InitializeComponent();
+                BuildLocalizedApplicationBar();
                 _mainPageInstance = this;
                 ClockTicked += MainPage_ClockTicked;
                 BlackCards = new ObservableCollection<Card>();
@@ -43,13 +44,13 @@ namespace CrossFitCardGame
 
                     if (Trial.IsTrialExpired())
                     {
-                        MessageBox.Show("Your trial has expired.  Please purchase this application.");
+                        MessageBox.Show(AppResources.TrialExpired);
                         _marketPlaceDetailTask.Show();
                         GoToScreen(Screen.Trial);
                     }
                     else
                     {
-                        MessageBox.Show("You have " + Trial.GetDaysLeftInTrial() + " days remaining in your trial.");
+                        MessageBox.Show(AppResources.YouHave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial);
                         GoToScreen(Screen.Main);
                     }
                 }
@@ -647,5 +648,38 @@ namespace CrossFitCardGame
                 GoToScreen(Screen.Main);
             }
         }
+  
+        private void BuildLocalizedApplicationBar()
+        {
+            // Set the page's ApplicationBar to a new instance of ApplicationBar.
+            ApplicationBar = new ApplicationBar();
+
+            ApplicationBar.Mode = ApplicationBarMode.Default;
+            ApplicationBar.Opacity = 1.0;
+            ApplicationBar.IsVisible = true;
+            ApplicationBar.IsMenuEnabled = true;
+
+            // Create a new button and set the text value to the localized string from AppResources.
+            ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/refresh.png", UriKind.Relative));
+            appBarButton.Text = AppResources.Reset;
+            ApplicationBar.Buttons.Add(appBarButton);
+            appBarButton.Click += new EventHandler(ResetClickedHandler);
+
+            ApplicationBarIconButton appBarButton2 = new ApplicationBarIconButton(new Uri("/Assets/AppBar/transport.pause.png", UriKind.Relative));
+            appBarButton2.Text = AppResources.PauseClock;
+            ApplicationBar.Buttons.Add(appBarButton2);
+            appBarButton2.Click += new EventHandler(PauseClickedHandler);
+
+            ApplicationBarIconButton appBarButton3 = new ApplicationBarIconButton(new Uri("/Assets/AppBar/transport.play.png", UriKind.Relative));
+            appBarButton3.Text = AppResources.StartClock;
+            ApplicationBar.Buttons.Add(appBarButton3);
+            appBarButton3.Click += new EventHandler(PlayClickedHandler);
+
+            // Create a new menu item with the localized string from AppResources.
+            ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.About);
+            ApplicationBar.MenuItems.Add(appBarMenuItem);
+            appBarMenuItem.Click += new EventHandler(AboutClicked);
+        }
+
     }
 }
