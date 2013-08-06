@@ -125,4 +125,70 @@
     <value>ru-RU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>МОЕ ЗАЯВЛЕНИЕ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Пункт меню</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>О</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>Информация о приложении:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Черный:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Карты:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Частота:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>Крест Fit карточная игра</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>Палуба полный!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>Пауза часы</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Красный:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> Повторений</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>Повторений:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>Начало часов</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>поддержка:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>Версия 1.0, выпущенный 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> дней, оставшихся в пробной.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Всего анкет:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Вашего суда истек.  Пожалуйста, купите это приложение.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>У вас есть </value>
+  </data>
 </root>

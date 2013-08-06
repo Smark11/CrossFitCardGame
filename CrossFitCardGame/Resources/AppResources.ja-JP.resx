@@ -125,4 +125,70 @@
     <value>ja-JP</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>私のアプリケーション</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>メニュー項目</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>アプリケーション情報:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>ブラック</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>カード:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>時計:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>クロス フィット カード ゲーム</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>デッキの完全です ！</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>クロックを一時停止</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>赤：</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value>担当者</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>担当者:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>クロックを開始します。</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>サポート:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>バージョン 1.0、リリース 2013/02/16</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>あなたの残りの日。</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>合計:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>試用版の有効期限が切れました。このアプリケーションを購入してください。</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>あります。</value>
+  </data>
 </root>

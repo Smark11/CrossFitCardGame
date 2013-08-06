@@ -125,4 +125,70 @@
     <value>hi-IN</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>मेरा आवेदन</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>जोड़ें</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>मेनू आइटम</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>अनुप्रयोग जानकारी:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>काले:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>कार्ड:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>घड़ी:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>क्रॉस फ़िट कार्ड खेल</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>डेक पूरा!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>विराम घड़ी</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>लाल:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> प्रतिनिधि</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>प्रतिनिधि:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>रीसेट करें</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>घड़ी शुरू</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>समर्थन:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>संस्करण 1.0, जारी 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> दिनों में अपने परीक्षण शेष।</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>कुल:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>अपने परीक्षण समाप्त हो गया है।  कृपया इस आवेदन खरीद।</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>आप है </value>
+  </data>
 </root>

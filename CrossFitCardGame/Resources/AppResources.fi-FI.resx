@@ -125,4 +125,70 @@
     <value>fi-FI</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MINUN HAKEMUKSEN</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Lisää</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Valikkovaihtoehto</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>hakemuksen tiedot:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Musta:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kortit:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Kello:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>Cross Fit korttipeli</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>Täydellinen kansi!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>Tauko kello</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Punainen:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> Reps</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>Reps:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Palauta</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>Käynnistä kello</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>tuki:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>Versio 1.0, julkaistu 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> päivän kuluttua koetuksessa.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Yhteensä:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Kokeiluversio on vanhentunut.  Voit ostaa tämän sovelluksen.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Sinulla on </value>
+  </data>
 </root>

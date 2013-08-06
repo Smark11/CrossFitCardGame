@@ -125,4 +125,70 @@
     <value>zh-Hant</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>我的應用程式</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>功能表項目</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>應用程式資訊:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>黑色：</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>卡:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>時鐘：</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>跨適合的紙牌遊戲</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>完整的甲板 ！</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>暫停時鐘</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>紅色：</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value>銷售代表</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>銷售代表：</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>啟動時鐘</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>支援：</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>1.0 版本、 發佈的 2013/2/16</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>在您的試用版中剩餘的天數。</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>總數：</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>您的試用版已過期。請購買此應用程式。</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>你有</value>
+  </data>
 </root>

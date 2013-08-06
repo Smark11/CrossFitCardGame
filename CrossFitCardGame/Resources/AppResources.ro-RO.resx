@@ -125,4 +125,70 @@
     <value>ro-RO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CEREREA MEA</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Adauga</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Elementul de meniu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>cerere de informaţii:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Negru:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Carduri:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Ceas:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>Cruce potrivire carte de joc</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>Pachet complet!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>Pauză ceas</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Roşu:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> Repetari</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>Repetari:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Resetare</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>Începe ceas</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>suport:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>Versiunea 1.0, lansat 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> zile rămase în proces dumneavoastră.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totală:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vă proces a expirat.  Vă rugăm să cumpere această aplicaţie.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Tu ai </value>
+  </data>
 </root>

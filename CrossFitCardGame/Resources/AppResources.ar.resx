@@ -125,4 +125,70 @@
     <value>ar</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>التطبيق الخاص بي</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>عنصر القائمة</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>معلومات التطبيق:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>الأسود:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>بطاقات:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>على مدار الساعة:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>الصليب تناسب لعبة بطاقة</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>سطح السفينة كاملة!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>ساعة الإيقاف المؤقت</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>الأحمر:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> ممثلين</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>ممثلين:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>إعادة تعيين</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>ابدأ على مدار الساعة</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>الدعم:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>الإصدار 1.0, صدر في 16/02/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> الأيام المتبقية في المحاكمة الخاصة بك.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>المجموع:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>انتهت صلاحية النسخة التجريبية.  يرجى شراء هذا التطبيق.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>لديك </value>
+  </data>
 </root>

@@ -12,6 +12,7 @@ using System.Collections.ObjectModel;
 using CrossFitCardGame.DataObjects;
 using System.Threading.Tasks;
 using System.IO.IsolatedStorage;
+using System.Globalization;
 using Common.Licencing;
 using Microsoft.Phone.Tasks;
 
@@ -37,6 +38,8 @@ namespace CrossFitCardGame
                 RedCards = new ObservableCollection<Card>();
 
                 AdControl.ErrorOccurred += AdControl_ErrorOccurred;
+                AdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
+            
 
                 if ((Application.Current as App).IsTrial)
                 {

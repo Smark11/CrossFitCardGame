@@ -125,4 +125,70 @@
     <value>it</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>LA MIA DOMANDA</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Voce di menu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Info su</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>informazioni sull'applicazione:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Nero:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Carte:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Orologio:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>Cross Fit gioco di carte</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>Mazzo completo!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>Orologio pausa</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rosso:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> Ripetizioni</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>Ripetizioni:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>Orologio di partenza</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>supporto:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>Versione 1.0, rilasciata 16/02/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> giorni rimanenti nella tua prova.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Le versioni di prova è scaduto.  Si prega di acquistare questa applicazione.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Avete </value>
+  </data>
 </root>

@@ -125,4 +125,70 @@
     <value>nb-NO</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MIN SØKNAD</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>legge til</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menyelement</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>søknaden informasjonen:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Svart:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kort:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Klokke:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>Cross passer kortspill</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>Dekk komplett!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>Pause-klokke</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rød:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> Representanter</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>Representanter:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Tilbakestille</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>Start klokken</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>støtte:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>Versjon 1.0, utgitt 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> gjenværende dager i prøveversjonen.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totalt:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Prøveperioden er utgått.  Kjøp dette programmet.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Du har </value>
+  </data>
 </root>

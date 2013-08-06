@@ -125,4 +125,70 @@
     <value>ko-KR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>내 응용 프로그램</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>메뉴 항목</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>에 대 한</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>응용 프로그램 정보:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>블랙:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>카드:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>시계:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>간 맞추기 카드 게임</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>갑판 완료!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>일시 중지 시계</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>레드:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> 담당자</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>담당자:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>리셋</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>시계 시작</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>지원:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>버전 1.0, 릴리스 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> 일 재판에 남아 있습니다.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>총:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>평가판이 만료 되었습니다.  이 응용 프로그램을 구입 하십시오.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>당신은 </value>
+  </data>
 </root>

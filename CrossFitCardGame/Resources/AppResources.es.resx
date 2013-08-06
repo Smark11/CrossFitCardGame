@@ -182,4 +182,13 @@
   <data name="Total" xml:space="preserve">
     <value>Total:</value>
   </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> días restantes en su juicio.</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Su juicio ha caducado.  Por favor, comprar esta aplicación.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Tienes </value>
+  </data>
 </root>

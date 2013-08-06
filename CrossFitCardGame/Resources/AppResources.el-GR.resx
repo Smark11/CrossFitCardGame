@@ -125,4 +125,70 @@
     <value>el-GR</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ΑΊΤΗΣΉ ΜΟΥ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Προσθέστε</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Στοιχείο μενού</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Σχετικά με</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>εφαρμογή πληροφορίες:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Μαύρο:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Κάρτες:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Ρολόι:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>Σταυρός ταιριάζουν παιχνίδι καρτών</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>Πλήρες κατάστρωμα!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>Παύση ρολόι</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Κόκκινο:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> Υφάσματα</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>Επαναλήψεις:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>Ρολόι έναρξης</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>υποστήριξη:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>Έκδοση 1.0, κυκλοφόρησε 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> μέρες που παρέμεινα στη ΔΙΚΗ σας.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Σύνολο:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Δίκη σας έχει λήξει.  Παρακαλώ να αγοράσετε αυτής της εφαρμογής.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Έχετε </value>
+  </data>
 </root>

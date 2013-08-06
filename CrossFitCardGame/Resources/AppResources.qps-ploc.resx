@@ -125,4 +125,70 @@
     <value>qps-ploc</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>[8B7A4][!!_ΜΫ ÀΡΡĹÍĆÂŢÎÔŇ_!!!!]</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>[DC221][!!_ãđđ_!!]</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>[7E7ED][!!_Мèйµ Ìτęм_!!]</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>[FDDF6][!!_Ãьôµť_!!]</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>[B24FC][!!_àρрļįćáťîõη įηƒòřмâτíõй:_!!!!!!!!]</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>[48F2E][!!_βłàĉĸ:_!!]</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>[51CB5][!!_Ćãŕďş:_!!]</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>[F9375][!!_Čłòčĸ:_!!]</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>[D5839][!!_Čřõšś ₣įτ Ćãѓđ Ĝãмê_!!!!!!]</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>[1FF25][!!_Ďéčķ Ċõмþĺèťę!_!!!!]</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>[E7D0A][!!_Ρáùśè Ćĺõćќ_!!]</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>[233B4][!!_Řęď:_!!]</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value>[F14BA][!!_ Ŗéρś_!!]</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>[F332E][!!_Ŗèþš:_!!]</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>[32DDD][!!_Ŗęšèτ_!!]</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>[39404][!!_Śτãřт Ċļòćќ_!!]</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>[56C44][!!_šúррõřτ:_!!]</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>[CC1C5][!!_Vêřşįôή 1.0, Řęłêâśéð 2/16/2013_!!!!!!!!!!]</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>[DD37F][!!_ ðãÿś ŗęмàìйįήĝ íй Уóµŗ ťŗíáļ._!!!!!!!!]</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>[D4ECA][!!_Тõтáł:_!!]</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>[E4C95][!!_Ϋôûŕ ţѓįáĺ ĥãş èхрìřêď.  Þĺéâşê рúѓċнàŝę тђíš ãрþļìĉàťìõή._!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>[8D271][!!_Ỳõú ħàνè _!!]</value>
+  </data>
 </root>

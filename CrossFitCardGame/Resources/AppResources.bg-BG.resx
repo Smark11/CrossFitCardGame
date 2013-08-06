@@ -125,4 +125,70 @@
     <value>bg-BG</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>МОЯТА КАНДИДАТУРА</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Добави</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Елемент от меню</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>За</value>
+  </data>
+  <data name="ApplicationInformation" xml:space="preserve">
+    <value>информация за приложение:</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Черно:</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Карти:</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Часовник:</value>
+  </data>
+  <data name="CrossFitCardGame" xml:space="preserve">
+    <value>Кръст годни игра на карти</value>
+  </data>
+  <data name="DeckComplete" xml:space="preserve">
+    <value>Пълен комплект!</value>
+  </data>
+  <data name="PauseClock" xml:space="preserve">
+    <value>Пауза часовник</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Червено:</value>
+  </data>
+  <data name="Reps" xml:space="preserve">
+    <value> Повторения</value>
+  </data>
+  <data name="Reps2" xml:space="preserve">
+    <value>Повторения:</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Начално състояние</value>
+  </data>
+  <data name="StartClock" xml:space="preserve">
+    <value>Започнете часовник</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>поддръжка:</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>Версия 1.0, издаден 2/16/2013</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> дни, оставащи в делото срещу вас.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Общо:</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Вашият пробен период е изтекъл.  Моля закупуване на това приложение.</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Имате </value>
+  </data>
 </root>
