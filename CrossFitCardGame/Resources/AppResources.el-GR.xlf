@@ -104,6 +104,50 @@
           <source>You have </source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Έχετε </target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>This application simulates a deck of cards.  The deck will be shuffled and display cards alternating in color.  This app is great for working out with a friend and can be used for any variety of CrossFit exercises..
+
+*Push-ups
+*Burpees
+*Sit-ups
+*Up Downs
+etc.
+
+The application shows statistics as you navigate through the deck displaying Black and Red reps and Cards complete, as well as overall reps and cards complete. 
+
+The application has start and pause clock functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Αυτή η εφαρμογή προσομοιώνει μια τράπουλα.  Το κατάστρωμα θα πρέπει να ανακατεύεται και κάρτες εναλλασσόμενο χρώμα οθόνης.  Αυτό το app είναι μεγάλη για την εργασία με ένα φίλο, και μπορεί να χρησιμοποιηθεί για κάθε ποικιλία του CrossFit ασκήσεις...
+
+* Push-ups
+* Burpees
+* Κάθομαι-UPS
+* Επάνω Downs
+κ.λπ.
+
+Η εφαρμογή εμφανίζει στατιστικά στοιχεία, όπως μπορείτε να περιηγηθείτε μέσα από το κατάστρωμα εμφάνιση, μαύρο και κόκκινο υφάσματα και πλήρης, καθώς και η συνολική υφάσματα κάρτες και κάρτες ολοκληρωθεί. 
+
+Η εφαρμογή έχει έναρξη και παύση ρολόι λειτουργικότητα.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Cross Fit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Σταυρός τακτοποίηση</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>CrossFit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CrossFit</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>PushUps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PushUps</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Deck of Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Τράπουλα</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Workout Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Προπόνηση κάρτες</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -275,5 +275,69 @@ namespace CrossFitCardGame.Resources {
                 return ResourceManager.GetString("YouHave", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This application simulates a deck of cards.  The deck will be shuffled and display cards alternating in color.  This app is great for working out with a friend and can be used for any variety of CrossFit exercises..
+        ///
+        ///*Push-ups
+        ///*Burpees
+        ///*Sit-ups
+        ///*Up Downs
+        ///etc.
+        ///
+        ///The application shows statistics as you navigate through the deck displaying Black and Red reps and Cards complete, as well as overall reps and cards complete. 
+        ///
+        ///The application has start and pause clock functionality..
+        /// </summary>
+        public static string Z_Description {
+            get {
+                return ResourceManager.GetString("Z_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cross Fit.
+        /// </summary>
+        public static string Z_Keyword1 {
+            get {
+                return ResourceManager.GetString("Z_Keyword1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CrossFit.
+        /// </summary>
+        public static string Z_Keyword2 {
+            get {
+                return ResourceManager.GetString("Z_Keyword2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PushUps.
+        /// </summary>
+        public static string Z_Keyword3 {
+            get {
+                return ResourceManager.GetString("Z_Keyword3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deck of Cards.
+        /// </summary>
+        public static string Z_Keyword4 {
+            get {
+                return ResourceManager.GetString("Z_Keyword4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Workout Cards.
+        /// </summary>
+        public static string Z_Keyword5 {
+            get {
+                return ResourceManager.GetString("Z_Keyword5", resourceCulture);
+            }
+        }
     }
 }

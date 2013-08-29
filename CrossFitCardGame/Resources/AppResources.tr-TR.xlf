@@ -104,6 +104,50 @@
           <source>You have </source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Sen-si olmak </target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>This application simulates a deck of cards.  The deck will be shuffled and display cards alternating in color.  This app is great for working out with a friend and can be used for any variety of CrossFit exercises..
+
+*Push-ups
+*Burpees
+*Sit-ups
+*Up Downs
+etc.
+
+The application shows statistics as you navigate through the deck displaying Black and Red reps and Cards complete, as well as overall reps and cards complete. 
+
+The application has start and pause clock functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bu uygulama bir deste kağıt simüle eder.  Güverte karıştırılan ve kartları değişen renkte görüntüler.  Bu app bir arkadaşı ile çalışmak için harika ve CrossFit egzersiz herhangi bir değişiklik için kullanılabilir...
+
+* Şınav
+* Burpees
+* Mekik
+* Yukarı çıkışlar
+vs.
+
+Uygulama istatistiklerini göstermek siyah ve kırmızı reps ve kart tam olarak genel reps desteyi gidin ve kart tam olarak gösterir. 
+
+Uygulama Başlat ve Duraklat işlevini saat var.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Cross Fit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fit çapraz</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>CrossFit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CrossFit</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>PushUps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Şınav</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Deck of Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kart destesi</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Workout Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">İş kartları</target>
+        </trans-unit>
       </group>
     </body>
   </file>

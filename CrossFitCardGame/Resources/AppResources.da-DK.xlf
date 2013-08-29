@@ -104,6 +104,50 @@
           <source>You have </source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Du har </target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>This application simulates a deck of cards.  The deck will be shuffled and display cards alternating in color.  This app is great for working out with a friend and can be used for any variety of CrossFit exercises..
+
+*Push-ups
+*Burpees
+*Sit-ups
+*Up Downs
+etc.
+
+The application shows statistics as you navigate through the deck displaying Black and Red reps and Cards complete, as well as overall reps and cards complete. 
+
+The application has start and pause clock functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dette program simulerer et spil kort.  Dæk vil være blandet og display kort skiftevis i farve.  Denne app er fantastisk til at arbejde med en ven og kan bruges til en bred vifte af CrossFit øvelser...
+
+* Push-ups
+* Burpees
+* Sit-ups
+* Op Downs
+etc.
+
+Programmet viser statistik som du navigere gennem bunken visning af sort og rød reps og kort komplet, samt overordnede reps og kort komplet. 
+
+Ansøgningen har start og pause clock funktionalitet.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Cross Fit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cross Fit</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>CrossFit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CrossFit</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>PushUps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PushUps</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Deck of Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kortene</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Workout Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Træning kort</target>
+        </trans-unit>
       </group>
     </body>
   </file>

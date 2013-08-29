@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Vostè té </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Aquesta aplicació simula una baralla de cartes.  La coberta es es barregen i mostrar targetes alternant en color.  Aquest app és gran per funcionar amb un amic i pot ser utilitzat per qualsevol varietat d'exercicis CrossFit...
+
+* Push-ups
+* Burpees
+* Abdominals
+* Amunt Downs
+etc..
+
+L'aplicació mostra estadística com vostè navegar a través de la coberta mostrant repeticions negre i vermell i repeticions complets, així com general de cartes i targetes de completar. 
+
+L'aplicació té Inici i pausa funcionalitat del rellotge.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Ajust de la creu</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Flexions de braços</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Baralla de cartes</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Targetes d'entrenament</value>
+  </data>
 </root>

@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>יש לך </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>יישום זה מדמה חפיסת קלפים.  הסיפון להיות גרר ולהציג כרטיסי לסירוגין בצבע.  יישום זה הוא נהדר עבור עובד עם חבר והוא יכול לשמש עבור כל מגוון של תרגילים CrossFit.
+
+* שכיבות שמיכה
+*. Burpees
+* כפיפות בטן
+* למעלה דאונס
+וכו '.
+
+היישום מציג סטטיסטיקות מנווט סיפון הצגת נציגי שחור ואדום, כרטיסי מלאה, כמו גם הכוללת נציגי ולהשלים קלפים. 
+
+היישום יש התחלה השהה שעון פונקציונליות.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>לחצות בכושר</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>שכיבות שמיכה</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>חפיסת הקלפים</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>אימון בקלפים</value>
+  </data>
 </root>

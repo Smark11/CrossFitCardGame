@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Bạn có </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ứng dụng này mô phỏng một deck của thẻ.  Tầng sẽ được xáo trộn và hiển thị các thẻ xen kẽ màu.  Ứng dụng này là rất tốt để làm việc với một người bạn và có thể được sử dụng cho bất kỳ số CrossFit tập...
+
+* Push-up
+* Burpees
+* Sit-ups
+* Lên Downs
+vv.
+
+Các ứng dụng cho thấy số liệu thống kê như bạn điều hướng thông qua tầng Hiển thị màu đen và đỏ reps và thẻ hoàn chỉnh, cũng như tổng thể reps và thẻ hoàn thành. 
+
+Các ứng dụng đã bắt đầu và tạm dừng đồng hồ chức năng.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross phù hợp</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>PushUps</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Cỗ bài</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Tập luyện thẻ</value>
+  </data>
 </root>

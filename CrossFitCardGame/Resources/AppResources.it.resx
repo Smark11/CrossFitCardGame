@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Avete </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Questa applicazione simula un mazzo di carte.  Il ponte verranno mischiate e visualizzare schede alternati in colore.  Questo app è grande per lavorare con un amico e può essere utilizzato per qualsiasi varietà di esercizi CrossFit...
+
+* Push-up
+* Burpees
+* Sit-up
+* Up Downs
+ecc.
+
+L'applicazione Mostra statistiche come si naviga attraverso Ponte visualizzazione nero e rosso ripetizioni e ripetizioni di carte completi, così come globale e completano di schede. 
+
+L'applicazione ha inizio e pausa orologio funzionalità.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Flessioni</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Mazzo di carte</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Schede di allenamento</value>
+  </data>
 </root>

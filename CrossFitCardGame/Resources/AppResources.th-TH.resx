@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>คุณมี </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>โปรแกรมประยุกต์นี้จำลองสำรับไพ่  สำรับจะสับ และแสดงบัตรสลับสี  App นี้เหมาะสำหรับการทำงานออกมากับเพื่อน และสามารถใช้สำหรับ CrossFit การออกกำลังกายมีหลากหลาย...
+
+* Push-ups
+* Burpees
+* ไกล ๆ
+* ค่าลงของ
+ฯลฯ
+
+แอพลิเคชันแสดงสถิติคุณนำไพ่จนหมดสำรับแสดงสีดำและแดงพนักงานและบัตรพนักงานสมบูรณ์ รวมทั้งโดยรวม และทำบัตร 
+
+โปรแกรมประยุกต์มีการเริ่มต้นและหยุดการตอกบัตรทำงาน</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>ข้ามพอดี</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>PushUps</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>สำรับไพ่</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>บัตรออกกำลังกาย</value>
+  </data>
 </root>

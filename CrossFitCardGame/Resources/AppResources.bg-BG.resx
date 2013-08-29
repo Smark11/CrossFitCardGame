@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Имате </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Това приложение симулира тесте карти.  На палубата ще се разбъркват и показват карти, променлив в цвят.  Това ап е чудесно за работа с един приятел и може да се използва за всеки сорт от CrossFit упражнения...
+
+* Лицеви опори
+* Бърпита
+* Коремни преси
+* Up Даунс
+и др.
+
+Заявлението показва статистически данни, вие навигирате през палубата, черен и червен повторения и карти пълна, както и цялостната повторения и карти завърши. 
+
+Заявлението е Старт и пауза часовник функционалност.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Кръст Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Лицеви опори</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Колода карти</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Тренировка карти</value>
+  </data>
 </root>

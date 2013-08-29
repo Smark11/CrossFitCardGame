@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>आप है </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>इस आवेदन के कार्डों की एक डेक simulates.  डेक shuffled हो जाएगा और रंग में बारी कार्ड प्रदर्शित करें।  इस app एक दोस्त के साथ बाहर काम करने के लिए महान है और CrossFit के व्यायाम के किसी भी किस्म के लिए इस्तेमाल किया जा सकता...
+
+* पुश अप
+* Burpees
+* बैठ अप
+* ऊपर Downs
+आदि।
+
+आवेदन आप प्रदर्शित करने के काले और लाल प्रतिनिधि और कार्ड पूर्ण रूप में अच्छी तरह समग्र प्रतिनिधि डेक के माध्यम से नेविगेट और कार्ड को पूरा के रूप में आँकड़ों से पता चलता है। 
+
+अनुप्रयोग प्रारंभ और ठहराव कार्यक्षमता घड़ी है।</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>क्रॉस फ़िट</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>PushUps</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>ताश के पत्तों की डेक</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>कसरत कार्ड</value>
+  </data>
 </root>

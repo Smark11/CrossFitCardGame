@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Anda memiliki </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Aplikasi ini mensimulasikan setumpuk kartu.  Dek akan berjalan dan tampilan kartu bolak-balik dalam warna.  Aplikasi ini sangat bagus untuk berolahraga dengan seorang teman dan dapat digunakan untuk setiap jenis latihan CrossFit...
+
+* Push-up
+* Burpees
+* Sit-up
+* Up Downs
+dll.
+
+Aplikasi menunjukkan statistik seperti Anda menavigasi melalui dek menampilkan repetisi hitam dan merah dan kartu lengkap, serta keseluruhan repetisi dan kartu lengkap. 
+
+Aplikasi ini memiliki awal dan jeda clock fungsi.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>PushUps</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Dek kartu</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Latihan kartu</value>
+  </data>
 </root>

@@ -104,6 +104,50 @@
           <source>You have </source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">[8D271][!!_Ỳõú ħàνè _!!]</target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>This application simulates a deck of cards.  The deck will be shuffled and display cards alternating in color.  This app is great for working out with a friend and can be used for any variety of CrossFit exercises..
+
+*Push-ups
+*Burpees
+*Sit-ups
+*Up Downs
+etc.
+
+The application shows statistics as you navigate through the deck displaying Black and Red reps and Cards complete, as well as overall reps and cards complete. 
+
+The application has start and pause clock functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[17261][!!_Ţħįś âррľîĉâτįôи šîмùĺáτêś à ďéċķ òƒ ćáŗďŝ.  Ţћé ďèčк ẃìľļ вê šђùƒƒļęđ âйđ ðíšþĺâý ċãѓďš àłтęѓиâτîήġ íή ċòłóѓ.  Ţђįš áρρ įš ĝřęàť ƒôŗ ŵóŕĸįйğ òûť ẅîţћ á ƒŗįêиð àйð ĉàй ьè ûśêđ ƒòŕ ãήÿ νáŕįêţУ óƒ Čŗõšş₣ìť èхêřĉìŝęś..
+
+*Þûšħ-ùþş
+*Βµѓþęéś
+*Šįт-ùþš
+*Ûρ Ďôŵήš
+ęťč.
+
+Ţнę ãρρľíćáţîôи šђôẅş šţàτíśţìċś áş ýóù иàνîġãţè ţнŕòµġћ ťђę ðęĉк đíśрłàýîήğ Βĺãčќ ãήđ Ѓęð ѓęрş ãиď Ċáŗðş ćòmρļèťè, ãš ŵéľľ âš óνèŕâļľ ŕèþś âήđ ĉáŕďś ċòmþľêţé. 
+
+Тнé àþþĺíčáτįôή нáŝ śţàŗτ àиď рáûŝè ćĺóčķ ƒµиċτįóйáĺįţŷ._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Cross Fit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[13176][!!_Ĉřòşś ₣ìť_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>CrossFit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8BDD1][!!_Ćѓòšś₣îť_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>PushUps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E5663][!!_РùšнÜρŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Deck of Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C2205][!!_Ďêčĸ óƒ Čàѓðš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Workout Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[879A0][!!_Ẅõřķòùť Čàŗđş_!!]</target>
+        </trans-unit>
       </group>
     </body>
   </file>

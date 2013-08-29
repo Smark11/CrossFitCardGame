@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>U hebt </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Deze toepassing simuleert een dek van kaarten.  Het dek zal worden geschud en kaarten afwisselend in kleur weer te geven.  Dit app is groot voor het uitwerken van met een vriend en kan worden gebruikt voor een verscheidenheid van CrossFit oefeningen...
+
+* Push-ups
+* Burpees
+* Sit-ups
+* Omhoog Downs
+enz.
+
+De toepassing bevat statistieken zoals u navigeren het dek zwart en rood herhalingen en kaarten volledige, evenals algemene herhalingen weergeven en kaarten voltooien. 
+
+De toepassing heeft begin- en pauze klok functionaliteit.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Kruis Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Push ups</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Dek van Cards</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Training kaarten</value>
+  </data>
 </root>

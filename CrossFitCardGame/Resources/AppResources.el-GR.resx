@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Έχετε </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Αυτή η εφαρμογή προσομοιώνει μια τράπουλα.  Το κατάστρωμα θα πρέπει να ανακατεύεται και κάρτες εναλλασσόμενο χρώμα οθόνης.  Αυτό το app είναι μεγάλη για την εργασία με ένα φίλο, και μπορεί να χρησιμοποιηθεί για κάθε ποικιλία του CrossFit ασκήσεις...
+
+* Push-ups
+* Burpees
+* Κάθομαι-UPS
+* Επάνω Downs
+κ.λπ.
+
+Η εφαρμογή εμφανίζει στατιστικά στοιχεία, όπως μπορείτε να περιηγηθείτε μέσα από το κατάστρωμα εμφάνιση, μαύρο και κόκκινο υφάσματα και πλήρης, καθώς και η συνολική υφάσματα κάρτες και κάρτες ολοκληρωθεί. 
+
+Η εφαρμογή έχει έναρξη και παύση ρολόι λειτουργικότητα.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Σταυρός τακτοποίηση</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>PushUps</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Τράπουλα</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Προπόνηση κάρτες</value>
+  </data>
 </root>

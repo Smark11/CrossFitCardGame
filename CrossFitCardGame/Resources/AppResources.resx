@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>You have </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>This application simulates a deck of cards.  The deck will be shuffled and display cards alternating in color.  This app is great for working out with a friend and can be used for any variety of CrossFit exercises..
+
+*Push-ups
+*Burpees
+*Sit-ups
+*Up Downs
+etc.
+
+The application shows statistics as you navigate through the deck displaying Black and Red reps and Cards complete, as well as overall reps and cards complete. 
+
+The application has start and pause clock functionality.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>PushUps</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Deck of Cards</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Workout Cards</value>
+  </data>
 </root>

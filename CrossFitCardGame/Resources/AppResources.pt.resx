@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Você tem </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Este aplicativo simula um baralho de cartas.  O convés depois misturadas e exibir cartas alternando em cor.  Este app é ótimo para trabalhar com um amigo e pode ser usado para qualquer variedade de exercícios CrossFit.
+
+* Flexões
+* Burpees
+* Abdominais
+* Up Downs
+etc.
+
+O aplicativo mostra estatísticas como você navegar através do convés exibindo preto e vermelho repetições e repetições completas, bem como globais de cartões e cartas completo. 
+
+O aplicativo tem iniciar e pausar a funcionalidade do relógio.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Flexões</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Baralho de cartas</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Cartões de treino</value>
+  </data>
 </root>

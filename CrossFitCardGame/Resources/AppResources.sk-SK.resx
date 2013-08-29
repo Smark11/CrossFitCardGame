@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Máte </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Táto aplikácia simuluje balíček kariet.  Paluby sa premieša a zobrazovať kariet striedavo vo farbe.  Táto app je skvelý pre prácu s kamarátom a môže byť použitý pre akékoľvek množstvo CrossFit cvičenia.
+
+* Kľučky
+* Burpees
+* Sit-up
+* Nahor Downs
+atď.
+
+Aplikácia zobrazuje štatistiku ako prejdete cez palubu zobrazenie čiernej a červenej opakovanie a kompletný, ako aj celkovú opakovanie kariet a kompletné karty. 
+
+Aplikácia má začiatok, pozastavte hodiny funkcie.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Kľučky</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Balíček kariet</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Cvičenie kariet</value>
+  </data>
 </root>

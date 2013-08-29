@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Du har </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Denna ansökan simulerar en kortlek.  Däcket kommer att blandas och Visa kort växlar i färg.  Denna app är bra för arbetande ute med en vän och kan användas för en rad olika CrossFit övningar...
+
+* Armhävningar
+* Burpees
+* Sit-ups
+* Upp Downs
+etc.
+
+Ansökan visar statistik som du navigera genom däck visar svart och rött reps och kort komplett, samt övergripande reps och kort komplett. 
+
+Ansökan har starta och pausa klocka funktionalitet.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Armhävningar</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Kortlek</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Träning kort</value>
+  </data>
 </root>

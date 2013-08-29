@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>당신은 </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>이 응용 프로그램 한 벌의 카드를 시뮬레이션합니다.  데크와 단행 될 것입니다 색상에서 교체 카드를 표시 합니다.  이 애플 리 케이이 션 친구와 운동을 위한 훌륭한 이며 CrossFit 훈련의 어떤 종류에 사용할 수 있습니다.
+
+* 팔 굽 혀 펴기
+* Burpees
+* 윗몸 일으키기
+* 비방을
+등입니다.
+
+검정과 빨강 담당자 및 카드 완료 뿐만 아니라 전반적인 담당자를 표시 하는 갑판을 통해 이동 하 고 카드를 완료 응용 프로그램 통계를 표시 합니다. 
+
+응용 프로그램 시작 및 일시 중지 기능을 시계에.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>맞는 크로스</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>팔 굽 혀 펴기</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>카드의 갑판</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>운동 카드</value>
+  </data>
 </root>

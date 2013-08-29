@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Masz </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ta aplikacja symuluje talii kart.  Pokładu zostaną przemieszane i wyświetlania kart naprzemiennie kolorem.  Ta aplikacja doskonale nadaje się do pracy z kolegą i mogą być używane dla każdej odmiany Krzyś ćwiczenia...
+
+* Push-up
+* Burpees
+* Przysiadów
+* Się upadki
+itp.
+
+Aplikacja pokazuje statystyki, jak poruszać się po pokładzie wyświetlanie czarno -czerwona powtórzeń i karty pełne, jak również ogólną powtórzeń i wypełnić karty. 
+
+Aplikacja ma początek i zegar funkcja pauzy.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Krzyś</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Pompki</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Talia kart</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Karty treningu</value>
+  </data>
 </root>

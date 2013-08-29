@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>你有</value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>此应用程序模拟一副牌。在甲板上将洗牌并显示交替在颜色的卡片。这个应用程序很适合跟朋友工作，而且可以用于任何种类的 CrossFit 练习...
+
+* 俯卧撑
+* Burpees
+* 仰卧起坐
+* 起来当斯
+等。
+
+该应用程序显示的统计信息，如您在显示黑色和红色的销售代表和卡完成，以及整体销售代表在甲板上导航和卡完成。
+
+应用程序已启动和暂停时钟功能。</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>交叉适合</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>俯卧撑</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>扑克牌的</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>锻炼卡</value>
+  </data>
 </root>

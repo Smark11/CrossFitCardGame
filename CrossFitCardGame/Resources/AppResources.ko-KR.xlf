@@ -104,6 +104,50 @@
           <source>You have </source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">당신은 </target>
         </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>This application simulates a deck of cards.  The deck will be shuffled and display cards alternating in color.  This app is great for working out with a friend and can be used for any variety of CrossFit exercises..
+
+*Push-ups
+*Burpees
+*Sit-ups
+*Up Downs
+etc.
+
+The application shows statistics as you navigate through the deck displaying Black and Red reps and Cards complete, as well as overall reps and cards complete. 
+
+The application has start and pause clock functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이 응용 프로그램 한 벌의 카드를 시뮬레이션합니다.  데크와 단행 될 것입니다 색상에서 교체 카드를 표시 합니다.  이 애플 리 케이이 션 친구와 운동을 위한 훌륭한 이며 CrossFit 훈련의 어떤 종류에 사용할 수 있습니다.
+
+* 팔 굽 혀 펴기
+* Burpees
+* 윗몸 일으키기
+* 비방을
+등입니다.
+
+검정과 빨강 담당자 및 카드 완료 뿐만 아니라 전반적인 담당자를 표시 하는 갑판을 통해 이동 하 고 카드를 완료 응용 프로그램 통계를 표시 합니다. 
+
+응용 프로그램 시작 및 일시 중지 기능을 시계에.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Cross Fit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">맞는 크로스</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>CrossFit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CrossFit</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>PushUps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">팔 굽 혀 펴기</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Deck of Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">카드의 갑판</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Workout Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">운동 카드</target>
+        </trans-unit>
       </group>
     </body>
   </file>

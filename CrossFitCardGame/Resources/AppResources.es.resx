@@ -191,4 +191,32 @@
   <data name="YouHave" xml:space="preserve">
     <value>Tienes </value>
   </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Esta aplicación simula una baraja de cartas.  La cubierta será orden aleatorio y Mostrar tarjetas alternando en color.  Esta aplicación es ideal para entrenar con un amigo y puede ser utilizada para cualquier variedad de ejercicios CrossFit...
+
+* Flexiones
+* Burpees
+* Abdominales
+* Arriba Downs
+etc.
+
+La aplicación muestra las estadísticas mientras navega a través de la cubierta mostrando tarjetas completos, así como totales representantes y representantes de negro y rojo y completan las tarjetas. 
+
+La aplicación tiene inicio y pausa funcionalidad del reloj.</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cross Fit</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>CrossFit</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Flexiones</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Baraja de cartas</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Tarjetas de entrenamiento</value>
+  </data>
 </root>
