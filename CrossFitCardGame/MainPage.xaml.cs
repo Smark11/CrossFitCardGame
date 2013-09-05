@@ -15,6 +15,7 @@ using System.IO.IsolatedStorage;
 using System.Globalization;
 using Common.Licencing;
 using Microsoft.Phone.Tasks;
+using Common.IsolatedStoreage;
 
 namespace CrossFitCardGame
 {
@@ -24,6 +25,10 @@ namespace CrossFitCardGame
         private object _lockObject = new object();
         MarketplaceDetailTask _marketPlaceDetailTask = new MarketplaceDetailTask();
         public static MainPage _mainPageInstance;
+        private const string TIMESOPENED = "TIMESOPENED";
+        private const string RATED = "RATED";
+        private int _timesOpened = 0;
+        private bool _rated;
 
         // Constructor
         public MainPage()
@@ -39,6 +44,26 @@ namespace CrossFitCardGame
 
                 AdControl.ErrorOccurred += AdControl_ErrorOccurred;
                 AdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
+
+                if (IS.GetSetting(TIMESOPENED) == null)
+                {
+                    IS.SaveSetting(TIMESOPENED, 0);
+                }
+                else
+                {
+                    IS.SaveSetting(TIMESOPENED, (int)IS.GetSetting(TIMESOPENED) + 1);
+                    _timesOpened = (int)IS.GetSetting(TIMESOPENED);
+                }
+
+                //rated
+                if (IS.GetSetting(RATED) != null)
+                {
+                    if ((bool)IS.GetSetting(RATED))
+                    {
+                        _rated = true;
+                    }
+                }
+
             
 
                 if ((Application.Current as App).IsTrial)
@@ -53,16 +78,34 @@ namespace CrossFitCardGame
                     }
                     else
                     {
-                        MessageBox.Show(AppResources.YouHave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial);
-                        GoToScreen(Screen.Main);
+                        //App has already been rated
+                        if (_rated || _timesOpened < 2)
+                        {
+                            MessageBox.Show(AppResources.YouHave + Trial.GetDaysLeftInTrial() + AppResources.DaysLeftInTrial);
+                            GoToScreen(Screen.Main);
+                        }
+                        //app not rated
+                        else if (!_rated && _timesOpened >= 2)
+                        {
+                          MessageBoxResult result =  MessageBox.Show(AppResources.Trial1,AppResources.Trial2, MessageBoxButton.OKCancel);
+
+                          if (result == MessageBoxResult.OK)
+                          {
+                              Trial.Add10DaysToTrial();
+                              GoToScreen(Screen.Main);
+                              IS.SaveSetting(RATED, true);
+                              _rated = true;
+                              MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+                              marketplaceReviewTask.Show();
+
+                          }
+                        }
                     }
                 }
                 else
                 {
                     GoToScreen(Screen.Main);
                 }
-
-
 
                 ShuffledDeck = new ObservableCollection<Card>();
 

@@ -29,8 +29,10 @@ namespace CrossFitCardGame
         /// </summary>
         private void CheckLicense()
         {
+            //for testing
             //_isTrial = true;
 
+            //for release...
             _isTrial = _licenseInfo.IsTrial();
         }
 

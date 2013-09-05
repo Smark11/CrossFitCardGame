@@ -148,6 +148,14 @@ Aplikasi ini memiliki awal dan jeda clock fungsi.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Latihan kartu</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Memperpanjang percobaan untuk 10 hari menurut penilaian aplikasi?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Memperpanjang percobaan?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

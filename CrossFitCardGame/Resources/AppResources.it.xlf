@@ -148,6 +148,14 @@ L'applicazione ha inizio e pausa orologio funzionalità.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Schede di allenamento</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estendere il Trial per 10 giorni di valutazione dell'applicazione?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estendere la sperimentazione?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

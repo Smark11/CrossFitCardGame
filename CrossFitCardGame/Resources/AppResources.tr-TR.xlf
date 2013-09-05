@@ -148,6 +148,14 @@ Uygulama Başlat ve Duraklat işlevini saat var.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">İş kartları</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Deneme için 10 gün uygulama derecelendirmeye göre uzatmak?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Deneme uzatmak?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

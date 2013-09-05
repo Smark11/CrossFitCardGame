@@ -219,4 +219,10 @@ The application has start and pause clock functionality.</value>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Workout Cards</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Extend Trial to 10 days by rating the application?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Extend Trial?</value>
+  </data>
 </root>

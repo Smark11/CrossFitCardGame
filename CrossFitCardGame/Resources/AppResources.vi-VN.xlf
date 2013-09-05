@@ -148,6 +148,14 @@ Các ứng dụng đã bắt đầu và tạm dừng đồng hồ chức năng.<
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Tập luyện thẻ</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở rộng phiên tòa để 10 ngày bằng cách đánh giá các ứng dụng?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mở rộng phiên tòa?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

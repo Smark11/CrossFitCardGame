@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Тренировки карты</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Расширить судебное разбирательство до 10 дней, рейтинг приложения?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Расширить судебное разбирательство?</value>
+  </data>
 </root>

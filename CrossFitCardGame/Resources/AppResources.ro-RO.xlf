@@ -148,6 +148,14 @@ Cererea a început şi pauză ceas funcţionalitate.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Carduri de antrenament</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prelungi proces la 10 zile de evaluare aplicarea?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prelungi proces?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

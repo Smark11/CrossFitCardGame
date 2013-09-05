@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>कसरत कार्ड</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>परीक्षण अनुप्रयोग द्वारा रेटिंग करने के लिए 10 दिन का विस्तार?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>परीक्षण का विस्तार?</value>
+  </data>
 </root>

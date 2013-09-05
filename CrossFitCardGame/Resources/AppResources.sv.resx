@@ -191,19 +191,6 @@
   <data name="YouHave" xml:space="preserve">
     <value>Du har </value>
   </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Denna ansökan simulerar en kortlek.  Däcket kommer att blandas och Visa kort växlar i färg.  Denna app är bra för arbetande ute med en vän och kan användas för en rad olika CrossFit övningar...
-
-* Armhävningar
-* Burpees
-* Sit-ups
-* Upp Downs
-etc.
-
-Ansökan visar statistik som du navigera genom däck visar svart och rött reps och kort komplett, samt övergripande reps och kort komplett. 
-
-Ansökan har starta och pausa klocka funktionalitet.</value>
-  </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cross Fit</value>
   </data>
@@ -218,5 +205,24 @@ Ansökan har starta och pausa klocka funktionalitet.</value>
   </data>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Träning kort</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Denna ansökan simulerar en kortlek.  Däcket kommer att blandas och Visa kort växlar i färg.  Denna app är bra för arbetande ute med en vän och kan användas för en rad olika CrossFit övningar...
+
+* Armhävningar
+* Burpees
+* Sit-ups
+* Upp Downs
+etc.
+
+Ansökan visar statistik som du navigera genom däck visar svart och rött reps och kort komplett, samt övergripande reps och kort komplett. 
+
+Ansökan har starta och pausa klocka funktionalitet.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Förlänga rättegången till 10 dagar efter betyg ansökan?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Förlänga rättegången?</value>
   </data>
 </root>

@@ -191,19 +191,6 @@
   <data name="YouHave" xml:space="preserve">
     <value>Você tem </value>
   </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Este aplicativo simula um baralho de cartas.  O convés depois misturadas e exibir cartas alternando em cor.  Este app é ótimo para trabalhar com um amigo e pode ser usado para qualquer variedade de exercícios CrossFit.
-
-* Flexões
-* Burpees
-* Abdominais
-* Up Downs
-etc.
-
-O aplicativo mostra estatísticas como você navegar através do convés exibindo preto e vermelho repetições e repetições completas, bem como globais de cartões e cartas completo. 
-
-O aplicativo tem iniciar e pausar a funcionalidade do relógio.</value>
-  </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cross Fit</value>
   </data>
@@ -218,5 +205,24 @@ O aplicativo tem iniciar e pausar a funcionalidade do relógio.</value>
   </data>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Cartões de treino</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Este aplicativo simula um baralho de cartas.  O convés depois misturadas e exibir cartas alternando em cor.  Este app é ótimo para trabalhar com um amigo e pode ser usado para qualquer variedade de exercícios CrossFit.
+
+* Flexões
+* Burpees
+* Abdominais
+* Up Downs
+etc.
+
+O aplicativo mostra estatísticas como você navegar através do convés exibindo preto e vermelho repetições e repetições completas, bem como globais de cartões e cartas completo. 
+
+O aplicativo tem iniciar e pausar a funcionalidade do relógio.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Estender o julgamento de 10 dias pela avaliação da aplicação?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Estender o julgamento?</value>
   </data>
 </root>

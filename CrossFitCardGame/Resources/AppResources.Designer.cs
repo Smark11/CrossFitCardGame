@@ -250,6 +250,24 @@ namespace CrossFitCardGame.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Extend Trial to 10 days by rating the application?.
+        /// </summary>
+        public static string Trial1 {
+            get {
+                return ResourceManager.GetString("Trial1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extend Trial?.
+        /// </summary>
+        public static string Trial2 {
+            get {
+                return ResourceManager.GetString("Trial2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your trial has expired.  Please purchase this application..
         /// </summary>
         public static string TrialExpired {

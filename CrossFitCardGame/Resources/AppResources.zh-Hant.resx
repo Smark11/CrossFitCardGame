@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>鍛煉卡</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>通過評分中應用擴展至 10 天的審判嗎？</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>延長審判嗎？</value>
+  </data>
 </root>

@@ -191,19 +191,6 @@
   <data name="YouHave" xml:space="preserve">
     <value>Van </value>
   </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Ez az alkalmazás szimulálja egy pakli kártya.  A fedélzet, fogják csoszogott, és grafikus kártya váltakozó színű.  Ez app nagy részére működő ki-val egy barát, és lehet használni a különböző gyakorlatok CrossFit...
-
-* Push-up
-* Burpees
-* Felülés
-* Up a bánatot
-stb.
-
-Az alkalmazás statisztikát jeleníti meg, ha navigálni a fedélzeten, fekete és piros ripsz és kártyák teljes, valamint teljes ripsz és kártyák teljes. 
-
-Az alkalmazásnak a start és a funkciók óra szünet.</value>
-  </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cross Fit</value>
   </data>
@@ -218,5 +205,24 @@ Az alkalmazásnak a start és a funkciók óra szünet.</value>
   </data>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Próbamunka kártyák</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Ez az alkalmazás szimulálja egy pakli kártya.  A fedélzet, fogják csoszogott, és grafikus kártya váltakozó színű.  Ez app nagy részére működő ki-val egy barát, és lehet használni a különböző gyakorlatok CrossFit...
+
+* Push-up
+* Burpees
+* Felülés
+* Up a bánatot
+stb.
+
+Az alkalmazás statisztikát jeleníti meg, ha navigálni a fedélzeten, fekete és piros ripsz és kártyák teljes, valamint teljes ripsz és kártyák teljes. 
+
+Az alkalmazásnak a start és a funkciók óra szünet.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>10 Napos próba meghosszabbíthatja értékelés alkalmazása?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Kiterjesztése a próba?</value>
   </data>
 </root>

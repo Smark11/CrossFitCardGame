@@ -148,6 +148,14 @@ The application has start and pause clock functionality.</source>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">कसरत कार्ड</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण अनुप्रयोग द्वारा रेटिंग करने के लिए 10 दिन का विस्तार?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण का विस्तार?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

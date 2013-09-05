@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>אימון בקלפים</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>להרחיב משפט ל-10 ימים על-ידי דירוג של היישום?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>להרחיב את המשפט?</value>
+  </data>
 </root>

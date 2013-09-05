@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>บัตรออกกำลังกาย</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>ขยายทดลอง 10 วัน โดยใช้การจัดอันดับหรือไม่</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>ขยายการทดลองหรือไม่</value>
+  </data>
 </root>

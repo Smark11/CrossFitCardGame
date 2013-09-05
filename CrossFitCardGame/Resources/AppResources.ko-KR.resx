@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>운동 카드</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>응용 프로그램을 평가 하 여 10 일 재판을 연장?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>재판을 연장?</value>
+  </data>
 </root>

@@ -191,19 +191,6 @@
   <data name="YouHave" xml:space="preserve">
     <value>Du har </value>
   </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Dette programmet simulerer en kortstokk.  Dekk skal stokkes og vise kort vekslende farge.  Denne app er flott for arbeider med en venn, og kan brukes til en rekke CrossFit øvelser.
-
-* Push-ups
-* Burpees
-* Sit-ups
-* Opp nedturer
-osv.
-
-Programmet viser statistikk som du navigerer gjennom dekket sorte og røde reps og kort komplett, samt generelle reps og fullføre. 
-
-Programmet har start og pause klokke funksjonalitet.</value>
-  </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cross Fit</value>
   </data>
@@ -218,5 +205,24 @@ Programmet har start og pause klokke funksjonalitet.</value>
   </data>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Trening kort</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Dette programmet simulerer en kortstokk.  Dekk skal stokkes og vise kort vekslende farge.  Denne app er flott for arbeider med en venn, og kan brukes til en rekke CrossFit øvelser.
+
+* Push-ups
+* Burpees
+* Sit-ups
+* Opp nedturer
+osv.
+
+Programmet viser statistikk som du navigerer gjennom dekket sorte og røde reps og kort komplett, samt generelle reps og fullføre. 
+
+Programmet har start og pause klokke funksjonalitet.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Utvide rettssaken til 10 dager etter vurdering programmet?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Utvide rettssaken?</value>
   </data>
 </root>

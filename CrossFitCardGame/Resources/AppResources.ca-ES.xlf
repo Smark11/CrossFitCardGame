@@ -148,6 +148,14 @@ L'aplicació té Inici i pausa funcionalitat del rellotge.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Targetes d'entrenament</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Estengui judici de 10 dies considerant l'aplicació?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ampliar de Trial?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

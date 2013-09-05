@@ -191,19 +191,6 @@
   <data name="YouHave" xml:space="preserve">
     <value>Du har </value>
   </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Dette program simulerer et spil kort.  Dæk vil være blandet og display kort skiftevis i farve.  Denne app er fantastisk til at arbejde med en ven og kan bruges til en bred vifte af CrossFit øvelser...
-
-* Push-ups
-* Burpees
-* Sit-ups
-* Op Downs
-etc.
-
-Programmet viser statistik som du navigere gennem bunken visning af sort og rød reps og kort komplet, samt overordnede reps og kort komplet. 
-
-Ansøgningen har start og pause clock funktionalitet.</value>
-  </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Cross Fit</value>
   </data>
@@ -218,5 +205,24 @@ Ansøgningen har start og pause clock funktionalitet.</value>
   </data>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Træning kort</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Dette program simulerer et spil kort.  Dæk vil være blandet og display kort skiftevis i farve.  Denne app er fantastisk til at arbejde med en ven og kan bruges til en bred vifte af CrossFit øvelser...
+
+* Push-ups
+* Burpees
+* Sit-ups
+* Op Downs
+etc.
+
+Programmet viser statistik som du navigere gennem bunken visning af sort og rød reps og kort komplet, samt overordnede reps og kort komplet. 
+
+Ansøgningen har start og pause clock funktionalitet.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Forlænge retssagen til 10 dage ved rating ansøgningen?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Udvide retssag?</value>
   </data>
 </root>

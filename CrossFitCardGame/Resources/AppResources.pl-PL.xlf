@@ -148,6 +148,14 @@ Aplikacja ma początek i zegar funkcja pauzy.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Karty treningu</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Przedłużyć okres próbny do 10 dni przez ocena wniosku?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Przedłużyć okres próbny?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

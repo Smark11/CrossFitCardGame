@@ -148,6 +148,14 @@ Taotlus on algus ja pausi kella funktsionaalsus.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Treening-kaardid</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laiendamine kohtuprotsess?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

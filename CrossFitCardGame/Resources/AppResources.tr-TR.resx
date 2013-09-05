@@ -191,19 +191,6 @@
   <data name="YouHave" xml:space="preserve">
     <value>Sen-si olmak </value>
   </data>
-  <data name="Z_Description" xml:space="preserve">
-    <value>Bu uygulama bir deste kağıt simüle eder.  Güverte karıştırılan ve kartları değişen renkte görüntüler.  Bu app bir arkadaşı ile çalışmak için harika ve CrossFit egzersiz herhangi bir değişiklik için kullanılabilir...
-
-* Şınav
-* Burpees
-* Mekik
-* Yukarı çıkışlar
-vs.
-
-Uygulama istatistiklerini göstermek siyah ve kırmızı reps ve kart tam olarak genel reps desteyi gidin ve kart tam olarak gösterir. 
-
-Uygulama Başlat ve Duraklat işlevini saat var.</value>
-  </data>
   <data name="Z_Keyword1" xml:space="preserve">
     <value>Fit çapraz</value>
   </data>
@@ -218,5 +205,24 @@ Uygulama Başlat ve Duraklat işlevini saat var.</value>
   </data>
   <data name="Z_Keyword5" xml:space="preserve">
     <value>İş kartları</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Bu uygulama bir deste kağıt simüle eder.  Güverte karıştırılan ve kartları değişen renkte görüntüler.  Bu app bir arkadaşı ile çalışmak için harika ve CrossFit egzersiz herhangi bir değişiklik için kullanılabilir...
+
+* Şınav
+* Burpees
+* Mekik
+* Yukarı çıkışlar
+vs.
+
+Uygulama istatistiklerini göstermek siyah ve kırmızı reps ve kart tam olarak genel reps desteyi gidin ve kart tam olarak gösterir. 
+
+Uygulama Başlat ve Duraklat işlevini saat var.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Deneme için 10 gün uygulama derecelendirmeye göre uzatmak?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Deneme uzatmak?</value>
   </data>
 </root>

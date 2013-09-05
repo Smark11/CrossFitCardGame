@@ -148,6 +148,14 @@ De toepassing heeft begin- en pauze klok functionaliteit.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Training kaarten</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uitbreiden Trial tot 10 dagen volgens rating de toepassing?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uitbreiden Trial?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

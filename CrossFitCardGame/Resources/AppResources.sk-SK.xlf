@@ -148,6 +148,14 @@ Aplikácia má začiatok, pozastavte hodiny funkcie.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cvičenie kariet</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Predĺžiť skúšobnú verziu?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

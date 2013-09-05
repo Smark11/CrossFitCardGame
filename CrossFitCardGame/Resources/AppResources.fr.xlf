@@ -148,6 +148,14 @@ L'application doit démarrer / pause fonctionnalité d'horloge.</target>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Cartes d'entraînement</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prolonger le procès à 10 jours par l'application de la notation ?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prolonger le procès ?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

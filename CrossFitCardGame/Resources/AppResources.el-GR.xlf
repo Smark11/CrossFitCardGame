@@ -148,6 +148,14 @@ The application has start and pause clock functionality.</source>
           <source>Workout Cards</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Προπόνηση κάρτες</target>
         </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Επεκτείνει δίκη για 10 ημέρες, με την εκτίμηση της εφαρμογής;</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Επεκτείνει τη δίκη;</target>
+        </trans-unit>
       </group>
     </body>
   </file>

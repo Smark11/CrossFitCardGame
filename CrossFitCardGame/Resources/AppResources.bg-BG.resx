@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Тренировка карти</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Разшири изпитание за 10 дни по оценка на заявлението?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Разшири изпитание?</value>
+  </data>
 </root>

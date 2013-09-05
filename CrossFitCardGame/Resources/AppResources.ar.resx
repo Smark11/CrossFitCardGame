@@ -219,4 +219,10 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>بطاقات تجريب</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>تمديد المحاكمة لمدة 10 أيام بتصنيف التطبيق؟</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>تمديد المحاكمة؟</value>
+  </data>
 </root>
