@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Treening-kaardid</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Laiendamine kohtuprotsess?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Käesoleva taotluse simuleerib kaardipakk.  Tekk on segatud ja vahelduv värv kaartide kuvamiseks.  See app on suurepärane sõber trenni ja sobib mistahes sorti CrossFit harjutusi.
 
@@ -218,11 +224,5 @@ jne.
 Taotlus näitab statistika nagu te liikuda must ja punane reps ja kaardid valmis, samuti üldine reps teki ja kaarte täita. 
 
 Taotlus on algus ja pausi kella funktsionaalsus.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Laiendada kohtuprotsessi hinnangu taotluse järgi 10 päeva?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Laiendamine kohtuprotsess?</value>
   </data>
 </root>

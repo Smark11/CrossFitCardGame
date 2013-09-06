@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Treniņa Cards</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Paplašināt izmēģinājuma 10 dienu laikā pēc novērtējuma piemērošanu?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Paplašināt izmēģinājuma versija?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Šī programma simulē uz pusēm kā kāršu kavu.  Klāja būs iegrozījās un displeja kartes mainīga krāsu.  Šī app lieliski noder darbam ar draugu, un to var izmantot jebkura šķirne, CrossFit vingrinājumi...
 
@@ -218,11 +224,5 @@ u. tml.
 Pieteikums parāda statistika, kā jūs varēsiet virzīties caur klāju, parādot melnā un sarkanā reps un kartes pilnīga, kā arī vispārējo reps un aizpildiet kartes. 
 
 Pieteikums ir sākums un apturētu pulksteni funkcionalitāti.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Paplašināt izmēģinājuma 10 dienu laikā pēc novērtējuma piemērošanu?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Paplašināt izmēģinājuma versija?</value>
   </data>
 </root>

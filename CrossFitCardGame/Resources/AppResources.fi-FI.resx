@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Harjoitus-kortteja</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Avartaa karsintakilpailu jotta 10 days luokituksen sovellus?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Avartaa karsintakilpailu?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Tämä sovellus simuloi korttipakan.  Kannen sekoitetaan ja näyttää kortit vuorotellen väreissä.  Tämä app on hyvä ystäväni kanssa voidaan käyttää kaikkia erilaisia CrossFit harjoituksia...
 
@@ -218,11 +224,5 @@ jne.
 Sovellus näyttää tilastot, voit selata deck näytetään musta ja punainen edustajaa ja kortit täydellistä sekä yleistä reps ja kortit loppuun. 
 
 Hakemus on alku- ja tauko kellon toimintoja.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Avartaa karsintakilpailu jotta 10 days luokituksen sovellus?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Avartaa karsintakilpailu?</value>
   </data>
 </root>

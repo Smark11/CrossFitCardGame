@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Cvičenie kariet</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Predĺžiť skúšobnú verziu?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Táto aplikácia simuluje balíček kariet.  Paluby sa premieša a zobrazovať kariet striedavo vo farbe.  Táto app je skvelý pre prácu s kamarátom a môže byť použitý pre akékoľvek množstvo CrossFit cvičenia.
 
@@ -218,11 +224,5 @@ atď.
 Aplikácia zobrazuje štatistiku ako prejdete cez palubu zobrazenie čiernej a červenej opakovanie a kompletný, ako aj celkovú opakovanie kariet a kompletné karty. 
 
 Aplikácia má začiatok, pozastavte hodiny funkcie.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Hodnotenie žiadosti predĺžiť skúšobnú verziu do 10 dní?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Predĺžiť skúšobnú verziu?</value>
   </data>
 </root>

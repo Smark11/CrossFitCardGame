@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Carduri de antrenament</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prelungi proces?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Această aplicaţie simulează un pachet de cărţi.  Puntea va fi amestecate şi afişa carduri alternativ de culoare.  Acest app este mare pentru a lucra cu un prieten şi poate fi folosit pentru orice soi de CrossFit exerciţii.
 
@@ -218,11 +224,5 @@ etc.
 Cererea Arată statistici ca naviga prin punte afişarea repetari de negru şi roşu şi carduri completă, precum şi generală repetari şi carduri complet. 
 
 Cererea a început şi pauză ceas funcţionalitate.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Prelungi proces?</value>
   </data>
 </root>

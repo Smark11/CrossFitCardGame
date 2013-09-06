@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Tarjetas de entrenamiento</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>¿Juicio se extiende a 10 días de calificación la aplicación?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>¿Extender el juicio?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Esta aplicación simula una baraja de cartas.  La cubierta será orden aleatorio y Mostrar tarjetas alternando en color.  Esta aplicación es ideal para entrenar con un amigo y puede ser utilizada para cualquier variedad de ejercicios CrossFit...
 
@@ -218,11 +224,5 @@ etc.
 La aplicación muestra las estadísticas mientras navega a través de la cubierta mostrando tarjetas completos, así como totales representantes y representantes de negro y rojo y completan las tarjetas. 
 
 La aplicación tiene inicio y pausa funcionalidad del reloj.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>¿Juicio se extiende a 10 días de calificación la aplicación?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>¿Extender el juicio?</value>
   </data>
 </root>

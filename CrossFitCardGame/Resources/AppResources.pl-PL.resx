@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Karty treningu</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Przedłużyć okres próbny do 10 dni przez ocena wniosku?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Przedłużyć okres próbny?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Ta aplikacja symuluje talii kart.  Pokładu zostaną przemieszane i wyświetlania kart naprzemiennie kolorem.  Ta aplikacja doskonale nadaje się do pracy z kolegą i mogą być używane dla każdej odmiany Krzyś ćwiczenia...
 
@@ -218,11 +224,5 @@ itp.
 Aplikacja pokazuje statystyki, jak poruszać się po pokładzie wyświetlanie czarno -czerwona powtórzeń i karty pełne, jak również ogólną powtórzeń i wypełnić karty. 
 
 Aplikacja ma początek i zegar funkcja pauzy.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Przedłużyć okres próbny do 10 dni przez ocena wniosku?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Przedłużyć okres próbny?</value>
   </data>
 </root>

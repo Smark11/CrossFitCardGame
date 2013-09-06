@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Cartes d'entraînement</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Prolonger le procès à 10 jours par l'application de la notation ?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prolonger le procès ?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Cette application simule un jeu de cartes.  Le pont seront mélangées et afficher des cartes en alternance en couleur.  Ce soft est idéal pour travailler avec un ami et peut être utilisé pour n'importe quelle variété d'exercices CrossFit...
 
@@ -218,11 +224,5 @@ etc..
 L'application affiche les statistiques que vous naviguez sur le pont affiche un reps noir et rouge et reps complets, mais aussi ensemble de cartes et toutes les cartes. 
 
 L'application doit démarrer / pause fonctionnalité d'horloge.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Prolonger le procès à 10 jours par l'application de la notation ?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Prolonger le procès ?</value>
   </data>
 </root>

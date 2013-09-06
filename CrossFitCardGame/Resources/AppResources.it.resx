@@ -206,6 +206,12 @@
   <data name="Z_Keyword5" xml:space="preserve">
     <value>Schede di allenamento</value>
   </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Estendere il Trial per 10 giorni di valutazione dell'applicazione?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Estendere la sperimentazione?</value>
+  </data>
   <data name="Z_Description" xml:space="preserve">
     <value>Questa applicazione simula un mazzo di carte.  Il ponte verranno mischiate e visualizzare schede alternati in colore.  Questo app è grande per lavorare con un amico e può essere utilizzato per qualsiasi varietà di esercizi CrossFit...
 
@@ -218,11 +224,5 @@ ecc.
 L'applicazione Mostra statistiche come si naviga attraverso Ponte visualizzazione nero e rosso ripetizioni e ripetizioni di carte completi, così come globale e completano di schede. 
 
 L'applicazione ha inizio e pausa orologio funzionalità.</value>
-  </data>
-  <data name="Trial1" xml:space="preserve">
-    <value>Estendere il Trial per 10 giorni di valutazione dell'applicazione?</value>
-  </data>
-  <data name="Trial2" xml:space="preserve">
-    <value>Estendere la sperimentazione?</value>
   </data>
 </root>
