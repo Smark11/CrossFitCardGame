@@ -225,4 +225,13 @@
   <data name="Trial2" xml:space="preserve">
     <value>परीक्षण का विस्तार?</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>दर</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! कृपया अपनी राय हमारे साथ साझा बाज़ार पर CrossFitCardGame रेटिंग द्वारा।</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! आप अपनी राय हमारे साथ साझा बाज़ार पर CrossFitCardGame द्वारा रेटिंग की तरह Woud?</value>
+  </data>
 </root>

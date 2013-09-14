@@ -225,4 +225,13 @@ The application shows statistics as you navigate through the deck displaying Bla
 
 The application has start and pause clock functionality.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Your feedback is very important to us! Please share your feedback with us by rating CrossFitCardGame on the marketplace.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Your feedback is very important to us! Woud you like to share your feedback with us by rating CrossFitCardGame on the marketplace?</value>
+  </data>
 </root>

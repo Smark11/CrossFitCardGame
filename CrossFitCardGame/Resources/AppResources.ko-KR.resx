@@ -225,4 +225,13 @@
   <data name="Trial2" xml:space="preserve">
     <value>재판을 연장?</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>속도</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>귀하의 의견은 우리에 게 매우 중요 하다! 공유 하시기 바랍니다 귀하의 의견 우리와 함께 시장에 CrossFitCardGame를 평가 합니다.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>귀하의 의견은 우리에 게 매우 중요 하다! Woud 시장에 CrossFitCardGame를 평가 하 여 우리와 함께 귀하의 의견을 공유 하 시겠습니까?</value>
+  </data>
 </root>

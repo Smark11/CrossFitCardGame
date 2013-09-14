@@ -225,4 +225,13 @@ Aplikácia zobrazuje štatistiku ako prejdete cez palubu zobrazenie čiernej a �
 
 Aplikácia má začiatok, pozastavte hodiny funkcie.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Sadzba</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Vaša spätná väzba je pre nás veľmi dôležité! Prosím zdieľať svoj názor s nami Hodnotenie CrossFitCardGame na trhu.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Vaša spätná väzba je pre nás veľmi dôležité! Woude vám zdieľať svoj názor s nami podľa hodnotenia CrossFitCardGame na trhu?</value>
+  </data>
 </root>

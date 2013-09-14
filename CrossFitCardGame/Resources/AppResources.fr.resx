@@ -225,4 +225,13 @@ L'application affiche les statistiques que vous naviguez sur le pont affiche un 
 
 L'application doit démarrer / pause fonctionnalité d'horloge.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Taux</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Vos impressions sont très importantes pour nous ! S'il vous plaît de partager vos commentaires avec nous par CrossFitCardGame sur le marché de la notation.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Vos impressions sont très importantes pour nous ! Woud vous voulez partager vos commentaires avec nous par CrossFitCardGame sur le marché de la notation ?</value>
+  </data>
 </root>

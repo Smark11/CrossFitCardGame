@@ -64,6 +64,7 @@
             Height="80" 
             Width="480"
             Grid.Row="0"
+            Visibility="{Binding AdvertisingVisibility}"
             VerticalAlignment="Top" />
         
         <!--<TextBlock Grid.Row="0" FontSize="40" x:Name="Title" Text="CrossFit Card Game" Foreground="Red" HorizontalAlignment="Center"/>-->

@@ -225,4 +225,13 @@ Az alkalmazás statisztikát jeleníti meg, ha navigálni a fedélzeten, fekete 
 
 Az alkalmazásnak a start és a funkciók óra szünet.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Arány</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Visszajelzése nagyon fontos nekünk! Kérjük, ossza meg visszajelzést velünk az értékelés CrossFitCardGame a piacon.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Visszajelzése nagyon fontos nekünk! Woud szeretne megosztani a visszajelzést az értékelés CrossFitCardGame a piactéren?</value>
+  </data>
 </root>

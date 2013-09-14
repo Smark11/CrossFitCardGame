@@ -225,4 +225,13 @@ O aplicativo mostra estatísticas como você navegar através do convés exibind
 
 O aplicativo tem iniciar e pausar a funcionalidade do relógio.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Taxa de</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Seu feedback é muito importante para nós! Por favor, compartilhe seus comentários pela avaliação do CrossFitCardGame no mercado.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Seu feedback é muito importante para nós! Woud você gostaria de compartilhar seus comentários pela avaliação do CrossFitCardGame no mercado?</value>
+  </data>
 </root>

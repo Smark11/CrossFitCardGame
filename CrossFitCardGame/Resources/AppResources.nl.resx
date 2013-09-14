@@ -225,4 +225,13 @@ De toepassing bevat statistieken zoals u navigeren het dek zwart en rood herhali
 
 De toepassing heeft begin- en pauze klok functionaliteit.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tarief</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Uw feedback is zeer belangrijk voor ons! Deel uw feedback met ons volgens rating van CrossFitCardGame op de markt.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Uw feedback is zeer belangrijk voor ons! Woud die u graag uw feedback met ons delen volgens rating van CrossFitCardGame op de markt?</value>
+  </data>
 </root>

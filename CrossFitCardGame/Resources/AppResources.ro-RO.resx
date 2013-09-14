@@ -225,4 +225,13 @@ Cererea Arată statistici ca naviga prin punte afişarea repetari de negru şi r
 
 Cererea a început şi pauză ceas funcţionalitate.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rata</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Feedback-ul este foarte important pentru noi! Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare CrossFitCardGame pe piaţă.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Feedback-ul este foarte important pentru noi! Woud ai dori să vă împărtăşesc feedback-ul cu noi de evaluare CrossFitCardGame pe piaţă?</value>
+  </data>
 </root>

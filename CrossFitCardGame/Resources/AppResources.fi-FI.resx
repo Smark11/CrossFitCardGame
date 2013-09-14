@@ -225,4 +225,13 @@ Sovellus näyttää tilastot, voit selata deck näytetään musta ja punainen ed
 
 Hakemus on alku- ja tauko kellon toimintoja.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Korko</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Palautteesi on meille tärkeää! Lähetä palautetta meille luokituksen CrossFitCardGame markkinoilla.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Palautteesi on meille tärkeää! Woud haluat jakaa palautetta meille luokituksen CrossFitCardGame markkinoilla?</value>
+  </data>
 </root>

@@ -225,4 +225,13 @@ La aplicación muestra las estadísticas mientras navega a través de la cubiert
 
 La aplicación tiene inicio y pausa funcionalidad del reloj.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tasa</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Su opinión es muy importante para nosotros! Por favor comparta su opinión con nosotros de calificación CrossFitCardGame en el mercado.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Su opinión es muy importante para nosotros! ¿Woud desea compartir su opinión con nosotros por valoración CrossFitCardGame en el mercado?</value>
+  </data>
 </root>

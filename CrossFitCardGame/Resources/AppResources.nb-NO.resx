@@ -225,4 +225,13 @@ Programmet viser statistikk som du navigerer gjennom dekket sorte og røde reps 
 
 Programmet har start og pause klokke funksjonalitet.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Din tilbakemelding er veldig viktig for oss! Vær dele dine tilbakemeldinger med oss etter vurdering CrossFitCardGame på markedet.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Din tilbakemelding er veldig viktig for oss! Woud du liker å dele tilbakemeldinger med oss etter vurdering CrossFitCardGame på markedsplassen?</value>
+  </data>
 </root>

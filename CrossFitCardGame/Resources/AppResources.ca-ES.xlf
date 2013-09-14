@@ -156,6 +156,18 @@ L'aplicació té Inici i pausa funcionalitat del rellotge.</target>
           <source>Extend Trial?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Ampliar de Trial?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taxa</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating CrossFitCardGame on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">El seu feedback és molt important per a nosaltres! Si us plau comparteixi la seva opinió amb nosaltres pels CrossFitCardGame en el mercat d'avaluació.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating CrossFitCardGame on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">El seu feedback és molt important per a nosaltres! T'agradaria compartir la seva opinió amb nosaltres pels CrossFitCardGame en el mercat d'avaluació Woud?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

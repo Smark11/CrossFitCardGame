@@ -225,4 +225,13 @@ Taotlus näitab statistika nagu te liikuda must ja punane reps ja kaardid valmis
 
 Taotlus on algus ja pausi kella funktsionaalsus.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Määra</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Teie tagasiside on meile väga oluline! Palun jaga oma tagasiside siin CrossFitCardGame turul hinnangu järgi.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Teie tagasiside on meile väga oluline! Garanteeritud soovite jagada oma tagasisidet meie poolt hinnang CrossFitCardGame turul?</value>
+  </data>
 </root>

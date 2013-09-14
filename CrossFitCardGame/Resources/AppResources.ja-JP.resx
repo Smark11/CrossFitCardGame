@@ -225,4 +225,13 @@
   <data name="Trial2" xml:space="preserve">
     <value>試用版を拡張？</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>レート</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>あなたのフィードバックは私達にとって非常に重要です ！ご意見を共有私たちと CrossFitCardGame 市場での定格によって評価しました。</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>あなたのフィードバックは私達にとって非常に重要です ！Woud マーケットプ レースで CrossFitCardGame を評価する私たちとあなたのフィードバックを共有したいですか？</value>
+  </data>
 </root>

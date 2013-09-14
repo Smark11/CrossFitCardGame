@@ -156,6 +156,18 @@ Hakemus on alku- ja tauko kellon toimintoja.</target>
           <source>Extend Trial?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Avartaa karsintakilpailu?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korko</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating CrossFitCardGame on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Palautteesi on meille tärkeää! Lähetä palautetta meille luokituksen CrossFitCardGame markkinoilla.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating CrossFitCardGame on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Palautteesi on meille tärkeää! Woud haluat jakaa palautetta meille luokituksen CrossFitCardGame markkinoilla?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

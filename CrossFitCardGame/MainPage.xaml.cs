@@ -16,6 +16,7 @@ using System.Globalization;
 using Common.Licencing;
 using Microsoft.Phone.Tasks;
 using Common.IsolatedStoreage;
+using Common.Utilities;
 
 namespace CrossFitCardGame
 {
@@ -34,16 +35,26 @@ namespace CrossFitCardGame
         public MainPage()
         {
             try
-            {
+            {              
                 InitializeComponent();
                 BuildLocalizedApplicationBar();
                 _mainPageInstance = this;
                 ClockTicked += MainPage_ClockTicked;
                 BlackCards = new ObservableCollection<Card>();
                 RedCards = new ObservableCollection<Card>();
-
+                
                 AdControl.ErrorOccurred += AdControl_ErrorOccurred;
                 AdControl.CountryOrRegion = RegionInfo.CurrentRegion.TwoLetterISORegionName;
+
+                //9/13/13 TJY Added, if free version then advertising control is visible
+                if ((Application.Current as App).IsFreeVersion)
+                {
+                    AdvertisingVisibility = Visibility.Visible;
+                }
+                else
+                {
+                    AdvertisingVisibility = Visibility.Collapsed;
+                }
 
                 if (IS.GetSetting(TIMESOPENED) == null)
                 {
@@ -112,6 +123,9 @@ namespace CrossFitCardGame
                 LoadCards();
 
                 ShuffleDeck();
+
+                //5th, 10th, 15th time prompt, 20th time ok only to rate, never prompt them again after they rate.
+                Rate.RateTheApp(AppResources.RateTheAppQuestion, AppResources.RateTheAppPrompt, AppResources.RateAppHeader);
             }
             catch (Exception ex)
             {
@@ -462,6 +476,17 @@ namespace CrossFitCardGame
         {
             get { return _appBarVisibility; }
             set { _appBarVisibility = value; ; RaisePropertyChanged("AppBarVisibility"); }
+        }
+
+        private Visibility _advertisingVisibility;
+        public Visibility AdvertisingVisibility
+        {
+            get { return _advertisingVisibility; }
+            set
+            {
+                _advertisingVisibility = value;
+                RaisePropertyChanged("AdvertisingVisibility");
+            }
         }
 
         #endregion properties

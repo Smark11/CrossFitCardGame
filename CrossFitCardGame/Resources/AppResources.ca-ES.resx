@@ -225,4 +225,13 @@ L'aplicació mostra estadística com vostè navegar a través de la coberta most
 
 L'aplicació té Inici i pausa funcionalitat del rellotge.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Taxa</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>El seu feedback és molt important per a nosaltres! Si us plau comparteixi la seva opinió amb nosaltres pels CrossFitCardGame en el mercat d'avaluació.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>El seu feedback és molt important per a nosaltres! T'agradaria compartir la seva opinió amb nosaltres pels CrossFitCardGame en el mercat d'avaluació Woud?</value>
+  </data>
 </root>

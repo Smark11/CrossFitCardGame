@@ -225,4 +225,13 @@ Pieteikums parāda statistika, kā jūs varēsiet virzīties caur klāju, parād
 
 Pieteikums ir sākums un apturētu pulksteni funkcionalitāti.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Likme</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Lūdzu dalīties ar mums jūsu atsauksmes pēc reitinga CrossFitCardGame tirgū.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Jūsu atsauksmes ir ļoti svarīgi, lai mums! Woud vēlaties dalīties ar mums savu atsauksmi, pēc reitinga CrossFitCardGame tirgū?</value>
+  </data>
 </root>

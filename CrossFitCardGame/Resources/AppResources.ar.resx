@@ -225,4 +225,13 @@
   <data name="Trial2" xml:space="preserve">
     <value>تمديد المحاكمة؟</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>ملاحظاتك مهم جداً بالنسبة لنا! يرجى حصة تعليقاتك معنا بتصنيف كروسفيتكاردجامي في السوق.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>ملاحظاتك مهم جداً بالنسبة لنا! Woud كنت ترغب في تقاسم تعليقاتك معنا بتصنيف كروسفيتكاردجامي في السوق؟</value>
+  </data>
 </root>

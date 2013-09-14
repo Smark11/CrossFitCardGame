@@ -156,6 +156,18 @@ The application has start and pause clock functionality.</source>
           <source>Extend Trial?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">परीक्षण का विस्तार?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">दर</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating CrossFitCardGame on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! कृपया अपनी राय हमारे साथ साझा बाज़ार पर CrossFitCardGame रेटिंग द्वारा।</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating CrossFitCardGame on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">आपकी प्रतिक्रिया हमारे लिए बहुत महत्वपूर्ण है! आप अपनी राय हमारे साथ साझा बाज़ार पर CrossFitCardGame द्वारा रेटिंग की तरह Woud?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

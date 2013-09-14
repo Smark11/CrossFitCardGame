@@ -225,4 +225,13 @@
   <data name="Trial2" xml:space="preserve">
     <value>ขยายการทดลองหรือไม่</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>อัตรา</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา กรุณาใช้คำติชมของคุณร่วมกับเรา ด้วยคะแนน CrossFitCardGame ในตลาด</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>คำติชมของคุณเป็นสิ่งสำคัญมากกับเรา Woud ต้องใช้คำติชมของคุณกับเราอันดับ CrossFitCardGame ในตลาด</value>
+  </data>
 </root>

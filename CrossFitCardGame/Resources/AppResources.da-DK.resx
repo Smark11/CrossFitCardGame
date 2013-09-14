@@ -225,4 +225,13 @@ Programmet viser statistik som du navigere gennem bunken visning af sort og rød
 
 Ansøgningen har start og pause clock funktionalitet.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Sats</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Din feedback er meget vigtig for os! Kan du dele din feedback med os af rating CrossFitCardGame på markedet.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Din feedback er meget vigtig for os! Woud du gerne dele din feedback med os ved rating CrossFitCardGame på markedspladsen?</value>
+  </data>
 </root>

@@ -225,4 +225,13 @@ L'applicazione Mostra statistiche come si naviga attraverso Ponte visualizzazion
 
 L'applicazione ha inizio e pausa orologio funzionalità.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tasso</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Il tuo feedback è molto importante per noi! Per favore condividete i commenti con noi di valutazione CrossFitCardGame sul mercato.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Il tuo feedback è molto importante per noi! Woud che ti piacerebbe condividere commenti e suggerimenti con noi di valutazione CrossFitCardGame sul marketplace?</value>
+  </data>
 </root>

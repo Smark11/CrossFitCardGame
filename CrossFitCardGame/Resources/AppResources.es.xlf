@@ -156,6 +156,18 @@ La aplicación tiene inicio y pausa funcionalidad del reloj.</target>
           <source>Extend Trial?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">¿Extender el juicio?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tasa</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating CrossFitCardGame on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Su opinión es muy importante para nosotros! Por favor comparta su opinión con nosotros de calificación CrossFitCardGame en el mercado.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating CrossFitCardGame on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Su opinión es muy importante para nosotros! ¿Woud desea compartir su opinión con nosotros por valoración CrossFitCardGame en el mercado?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

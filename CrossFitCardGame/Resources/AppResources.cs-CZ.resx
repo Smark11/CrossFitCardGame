@@ -225,4 +225,13 @@ Aplikace zobrazuje statistiky, jak přejdete přes palubu černé a červené op
 
 Aplikace má spustit a pozastavit hodiny funkčnost.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Míra</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Váš názor je pro nás velmi důležité! Prosím sdílet své názory s námi hodnocení CrossFitCardGame na tržišti.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Váš názor je pro nás velmi důležité! Woud byste se s námi podělit své názory podle hodnocení CrossFitCardGame na tržišti?</value>
+  </data>
 </root>

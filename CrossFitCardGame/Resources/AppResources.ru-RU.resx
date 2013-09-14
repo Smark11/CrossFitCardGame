@@ -225,4 +225,13 @@
   <data name="Trial2" xml:space="preserve">
     <value>Расширить судебное разбирательство?</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Ставка</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ваше мнение очень важно для нас! Пожалуйста поделитесь с нами по рейтингу CrossFitCardGame на рынке.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ваше мнение очень важно для нас! Woud вы хотели бы поделиться своими впечатлениями с нами по рейтингу CrossFitCardGame на рынке?</value>
+  </data>
 </root>

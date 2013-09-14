@@ -225,4 +225,13 @@ Aplikasi menunjukkan statistik seperti Anda menavigasi melalui dek menampilkan r
 
 Aplikasi ini memiliki awal dan jeda clock fungsi.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Tingkat</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting untuk kita! Silakan berbagi Tanggapan Anda dengan kami dengan nilai CrossFitCardGame di pasar.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting untuk kita! Woud Anda ingin berbagi umpan balik Anda dengan kami dengan nilai CrossFitCardGame di pasar?</value>
+  </data>
 </root>

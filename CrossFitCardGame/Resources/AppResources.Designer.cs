@@ -169,6 +169,33 @@ namespace CrossFitCardGame.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rate.
+        /// </summary>
+        public static string RateAppHeader {
+            get {
+                return ResourceManager.GetString("RateAppHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your feedback is very important to us! Please share your feedback with us by rating CrossFitCardGame on the marketplace..
+        /// </summary>
+        public static string RateTheAppPrompt {
+            get {
+                return ResourceManager.GetString("RateTheAppPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your feedback is very important to us! Woud you like to share your feedback with us by rating CrossFitCardGame on the marketplace?.
+        /// </summary>
+        public static string RateTheAppQuestion {
+            get {
+                return ResourceManager.GetString("RateTheAppQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Red:.
         /// </summary>
         public static string Red {

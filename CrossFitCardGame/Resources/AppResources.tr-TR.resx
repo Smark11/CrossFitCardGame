@@ -225,4 +225,13 @@ Uygulama istatistiklerini göstermek siyah ve kırmızı reps ve kart tam olarak
 
 Uygulama Başlat ve Duraklat işlevini saat var.</value>
   </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Oranı</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Görüşleriniz bizim için çok önemlidir! Lütfen görüşlerinizi bizimle paylaşmak pazar CrossFitCardGame derecelendirmeye göre.</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Görüşleriniz bizim için çok önemlidir! Woud Pazar CrossFitCardGame derecelendirmeye göre görüşlerinizi paylaşmak ister?</value>
+  </data>
 </root>

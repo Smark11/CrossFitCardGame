@@ -156,6 +156,18 @@ Aplikácia má začiatok, pozastavte hodiny funkcie.</target>
           <source>Extend Trial?</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Predĺžiť skúšobnú verziu?</target>
         </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sadzba</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Please share your feedback with us by rating CrossFitCardGame on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaša spätná väzba je pre nás veľmi dôležité! Prosím zdieľať svoj názor s nami Hodnotenie CrossFitCardGame na trhu.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us! Woud you like to share your feedback with us by rating CrossFitCardGame on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vaša spätná väzba je pre nás veľmi dôležité! Woude vám zdieľať svoj názor s nami podľa hodnotenia CrossFitCardGame na trhu?</target>
+        </trans-unit>
       </group>
     </body>
   </file>

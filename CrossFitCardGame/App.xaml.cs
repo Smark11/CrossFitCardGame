@@ -24,6 +24,15 @@ namespace CrossFitCardGame
             }
         }
 
+        private static bool _isFreeVersion = false;
+        public bool IsFreeVersion
+        {
+            get
+            {
+                return _isFreeVersion;
+            }
+        }
+
         /// <summary>
         /// Check the current license information for this application
         /// </summary>
